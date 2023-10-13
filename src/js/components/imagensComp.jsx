@@ -1,13 +1,13 @@
-const CreateImage = ( {srcImage, altImage} ) => {
+const CreateImage = ({ srcImage }) => {
     return (
-        <img src="{ruteImg}" alt="{altImage}"></img>
+        <img src="{ruteImg}" alt=""></img>
     )
 }
 
-export function ImgHome () {
+export function ImagePortada (srcImage) {
     return (
-        <div>
-            <CreateImage srcImage='../public/calidad.png' />
+        <div className="cont_imagePortada">
+        <img className="imagePortada" src="srcImage" alt=""></img>
         </div>
     )
 }

@@ -1,19 +1,15 @@
-import { CreateParagraph, CreateTitle, Header } from '../components/textsComp' ;
-import { ImgHome } from '../components/imagensComp' ;
-import { ButtonsHome, ButtonsRRSS } from '../components/buttonsComp' ;
+import { HeaderLogo } from '../components/fontComp' ;
+import { ImagePortada } from '../components/imagensComp' ;
+import {  } from '../components/buttonsComp' ;
 
 export function Home () {
     return (
         <>
         <header>
-            <Header />
+            <HeaderLogo />
         </header>
         <section>
-            <ImgHome />
-            <CreateParagraph text="hola" />
-            <CreateTitle text="bye" />
-            <ButtonsHome />
-            <ButtonsRRSS />
+            <ImagePortada />
         </section>
         </>
     )

@@ -1,32 +1,13 @@
-const CreateButton = ({ buttonText }) => {
+export const CreateButton = ({ text }) => {
     return (
-        <button>{ buttonText }</button>
+        <button>{ text }</button>
     );
 };
 
-const CreateButtonImg = ( srcImg ) => {
+export const CreateButtonImg = ( srcImg ) => {
     return (
         <button>
             <img src="{ srcImg }" alt=""></img>
         </button>
     )
 }
-
-export function ButtonsHome ( ) {
-    return (
-    <div>
-        <CreateButton buttonText="Primer botón" />
-        <CreateButton buttonText="Segundo botón" />
-    </div>
-    );
-};
-
-export function ButtonsRRSS () {
-    return (
-        <div>
-            <CreateButtonImg srcImg='#' />
-            <CreateButtonImg srcImg='#' />
-        </div>
-    )
-}
-
