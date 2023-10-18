@@ -1,20 +1,20 @@
-import { Imagens_Home } from "../assets/imagens"
-import { Text_PortadaHome } from "../assets/texts"
+import { ImagensHome } from "../assets/imagens" ;
+import { Links } from "../assets/links" ;
 
-export const ButtonsPrin = () => {
+export const ButtonsPrin = ( props ) => {
     return (
-        <div className="btnPrin_cont">
-            <button className='btnPrin' type="button">{ Text_PortadaHome.btn_services }</button>
-            <button className='btnPrin' type="button">{ Text_PortadaHome.btn_contact }</button>
+        <div className="cont_btnPrin">
+            <button className='btnPrin' type="button"><a href={ props.link1 } />{ props.text1 }</button>
+            <button className='btnPrin' type="button"><a href={ props.link2 } />{ props.text2 }</button>
         </div>
     )
 }
 
 export const ButtonRRSS = () => {
     return (
-        <div className='btnRRSS_cont'>
-            <button className='btnRRSS' type="button"><a href="#" /><img src={ Imagens_Home.calidad } alt="" style={{width:"50px"}}/></button>
-            <button className='btnRRSS' type="button"><a href="#" /><img src={ Imagens_Home.calidad } alt="" style={{width:"50px"}}s  /></button>
+        <div className='cont_btnRRSS'>
+            <button className='btnRRSS' type="button"><a href={ Links.prueba } /><img src={ ImagensHome.calidad } alt="" style={{width:"50px"}}/></button>
+            <button className='btnRRSS' type="button"><a href={ Links.prueba } /><img src={ ImagensHome.calidad } alt="" style={{width:"50px"}} /></button>
         </div>
     )
 }

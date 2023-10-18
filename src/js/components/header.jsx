@@ -1,8 +1,8 @@
-import { Text_Header } from '../assets/texts';
+import { TextHeaderFooter, TextHome } from '../assets/texts';
 
 
 export const Header = () => {
     return (
-        <h3>{ Text_Header.text }</h3>
+        <h3>{ TextHeaderFooter.header_text }</h3>
     )
 }
