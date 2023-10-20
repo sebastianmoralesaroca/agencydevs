@@ -1,5 +1,5 @@
-import { TextButtons, TextHome } from "../assets/texts" ;
-import { ButtonsPrin } from "./buttons";
+import { TextButtons } from "../assets/textsASS" ;
+import { ButtonsPrin } from "./buttonsCOM";
 
 
 // Card Home About

@@ -1,7 +1,8 @@
-import { ButtonContact } from "./buttons" ;
-import { TextHome, TextHeaderFooter } from "../assets/texts" ;
-import { ImagensMenu } from "../assets/imagens" ;
-import { LinksMenu } from "../assets/links" ;
+import { InputContact, ButtonContact } from "./buttonsCOM" ;
+import { TextHeaderFooter } from "../assets/textsASS" ;
+import { ImagensMenu } from "../assets/imagensASS" ;
+import { LinksMenu } from "../assets/linksASS" ;
+import { TextContact } from "../assets/textsASS";
 
 
 
@@ -28,10 +29,25 @@ export const Contact = () => {
     return (
         <div className='cont_contPrin'>
             <div className='cont_contPrin_contTitle'>
-                <p className='cont_contPrin_contTitle_subtitle'>{ TextHome.cont_subtitle }</p>
-                <h2 className='cont_contPrin_contTitle_title'>{ TextHome.cont_title }</h2>
+                <p className='cont_contPrin_contTitle_subtitle'>{ TextContact.subtitle }</p>
+                <h2 className='cont_contPrin_contTitle_title'>{ TextContact.title }</h2>
         </div>
             <ButtonContact />
+        </div>
+    )
+}
+
+// contact window
+export const ContactWindow = () => {
+    return (
+        <div className='contContactWindow'>
+            <div className='contContactWindow_contTitle'>
+                <h3 className='contContactWindow_contTitle_title'></h3>
+                <p className='contContactWindow_contTitle_text'></p>
+            </div>
+            <div className="contContactWindow_contBtnInp">
+                <InputContact />
+            </div>
         </div>
     )
 }
