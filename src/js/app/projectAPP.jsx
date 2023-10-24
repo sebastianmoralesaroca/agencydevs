@@ -14,38 +14,38 @@ export const Project = () => {
                 <CardProy
                     image={ ObjProject.project_1.image }
                     title={ ObjProject.project_1.title }
-                    link1={ ObjProject.project_1.link1 }
-                    link2={ ObjProject.project_1.link2 }
+                    text={ ObjProject.project_1.text }
+                    link={ ObjProject.project_1.link }
                 />
                 <CardProy
                     image={ ObjProject.project_2.image }
                     title={ ObjProject.project_2.title }
-                    link1={ ObjProject.project_2.link1 }
-                    link2={ ObjProject.project_2.link2 }
+                    text={ ObjProject.project_2.text }
+                    link={ ObjProject.project_2.link }
                 />
                 <CardProy
                     image={ ObjProject.project_3.image }
                     title={ ObjProject.project_3.title }
-                    link1={ ObjProject.project_3.link1 }
-                    link2={ ObjProject.project_3.link2 }
+                    text={ ObjProject.project_3.text }
+                    link={ ObjProject.project_3.link }
                 />
                 <CardProy
                     image={ ObjProject.project_4.image }
                     title={ ObjProject.project_4.title }
-                    link1={ ObjProject.project_4.link1 }
-                    link2={ ObjProject.project_4.link2 }
+                    text={ ObjProject.project_4.text }
+                    link={ ObjProject.project_4.link }
                 />
                 <CardProy
                     image={ ObjProject.project_5.image }
                     title={ ObjProject.project_5.title }
-                    link1={ ObjProject.project_5.link1 }
-                    link2={ ObjProject.project_5.link2 }
+                    text={ ObjProject.project_5.text }
+                    link={ ObjProject.project_5.link }
                 />
                 <CardProy
                     image={ ObjProject.project_6.image }
                     title={ ObjProject.project_6.title }
-                    link1={ ObjProject.project_6.link1 }
-                    link2={ ObjProject.project_6.link2 }
+                    text={ ObjProject.project_6.text }
+                    link={ ObjProject.project_6.link }
                 />
             </div>
         </section>

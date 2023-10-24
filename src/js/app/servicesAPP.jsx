@@ -39,22 +39,13 @@ export const Services= () => {
                     itemText6={ ObjServices.integrations.text6 } itemImg6={ ObjServices.integrations.img6 }
                 />
                 <CardServ
-                    title={ ObjServices.support.title }
-                    itemText1={ ObjServices.support.text1 } itemImg1={ ObjServices.support.img1 }
-                    itemText2={ ObjServices.support.text2 } itemImg2={ ObjServices.support.img2 }
-                    itemText3={ ObjServices.support.text3 } itemImg3={ ObjServices.support.img3 }
-                    itemText4={ ObjServices.support.text4 } itemImg4={ ObjServices.support.img4 }
-                    itemText5={ ObjServices.support.text5 } itemImg5={ ObjServices.support.img5 }
-                    itemText6={ ObjServices.support.text6 } itemImg6={ ObjServices.support.img6 }
-                />
-                <CardServ
-                    title={ ObjServices.optimizatios.title }
-                    itemText2={ ObjServices.optimizatios.text1 } itemImg2={ ObjServices.optimizatios.img1 }
-                    itemText1={ ObjServices.optimizatios.text2 } itemImg1={ ObjServices.optimizatios.img2 }
-                    itemText3={ ObjServices.optimizatios.text3 } itemImg3={ ObjServices.optimizatios.img3 }
-                    itemText4={ ObjServices.optimizatios.text4 } itemImg4={ ObjServices.optimizatios.img4 }
-                    itemText5={ ObjServices.optimizatios.text5 } itemImg5={ ObjServices.optimizatios.img5 }
-                    itemText6={ ObjServices.optimizatios.text6 } itemImg6={ ObjServices.optimizatios.img6 }
+                    title={ ObjServices.supportOptimizatios.title }
+                    itemText1={ ObjServices.supportOptimizatios.text1 } itemImg1={ ObjServices.supportOptimizatios.img1 }
+                    itemText2={ ObjServices.supportOptimizatios.text2 } itemImg2={ ObjServices.supportOptimizatios.img2 }
+                    itemText3={ ObjServices.supportOptimizatios.text3 } itemImg3={ ObjServices.supportOptimizatios.img3 }
+                    itemText4={ ObjServices.supportOptimizatios.text4 } itemImg4={ ObjServices.supportOptimizatios.img4 }
+                    itemText5={ ObjServices.supportOptimizatios.text5 } itemImg5={ ObjServices.supportOptimizatios.img5 }
+                    itemText6={ ObjServices.supportOptimizatios.text6 } itemImg6={ ObjServices.supportOptimizatios.img6 }
                 />
                 <CardServ
                     title={ ObjServices.appWeb.title }

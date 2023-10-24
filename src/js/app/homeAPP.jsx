@@ -12,7 +12,7 @@ export const Home= () => {
         <>
         <section className='sectPort'>
             <div className='sectPort_contImg'>
-                <img className='sectPort_contImg_image' src={ ImagensHome.calidad } alt="" style={{width:"50px"}} />
+                <img className='sectPort_contImg_image' src={ ImagensHome.mePortada } alt="" style={{width:"100px"}} />
             </div>
             <div className='sectPort_contText'>
                 <p className='sectPort_contTitle_subtitle'>{ TextHome.portada_subtitle }</p>
@@ -27,11 +27,11 @@ export const Home= () => {
                 <h2 className='sectAbout_contTitle_title'>{ TextHome.about_title }</h2>
             </div>
             <div className='sectAbout_contImg'>
-                <img className='sectAbout_contImg_image' src={ ImagensHome.calidad } alt="" style={{width:"50px"}} />
+                <img className='sectAbout_contImg_image' src={ ImagensHome.meAbout } alt="" style={{width:"100px"}} />
             </div>
             <div className='sectAbout_contCards'>
-                <CardAbout img={ ImagensHome.calidad } title={ TextHome.about_card1_title } text={ TextHome.about_card1_text } />
-                <CardAbout img={ ImagensHome.calidad } title={ TextHome.about_card2_title } text={ TextHome.about_card2_text } />
+                <CardAbout img={ ImagensHome.medal } title={ TextHome.about_card1_title } text={ TextHome.about_card1_text } />
+                <CardAbout img={ ImagensHome.movile } title={ TextHome.about_card2_title } text={ TextHome.about_card2_text } />
             </div>
             <div className='sectAbout_contText'>
                 <p className='sectAbout_contText_text'>{ TextHome.about_text }</p>
@@ -70,20 +70,20 @@ export const Home= () => {
                 <CardProy
                     image={ ObjProject.project_1.image }
                     title={ ObjProject.project_1.title }
-                    link1={ ObjProject.project_1.link1 }
-                    link2={ ObjProject.project_1.link2 }
+                    text={ ObjProject.project_1.text }
+                    link1={ ObjProject.project_1.link }
                 />
                 <CardProy
                     image={ ObjProject.project_2.image }
                     title={ ObjProject.project_2.title }
-                    link1={ ObjProject.project_2.link1 }
-                    link2={ ObjProject.project_1.link2 }
+                    text={ ObjProject.project_2.text }
+                    link1={ ObjProject.project_2.link }
                     />
                 <CardProy
                     image={ ObjProject.project_3.image }
                     title={ ObjProject.project_3.title }
-                    link1={ ObjProject.project_3.link1 }
-                    link2={ ObjProject.project_3.link2 }
+                    text={ ObjProject.project_3.text }
+                    link1={ ObjProject.project_3.link }
                 />
             </div>
         </section>

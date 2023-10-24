@@ -25,12 +25,14 @@ export const TextContact = {
   btn_contact: "Contaccto",
   input: "Enviar WhatsApp",
   btn_submit: "ENVIAR",
+  contactWindow_title: "Hablemos por WhatsApp",
+  contactWindow_subtitle: "Dale hablemos por WhatsApp, no recibirás spam, publicidad ni llamadas incómodas. Quiero que hablemos de manera cómoda por el canal de comunicación que todo el mundo utiliza. Introduce tu Nombre y tu WhatsApp, luego yo te escribo a tu teléfono.",
+  contactWindow_placeholderName: "Tu Nombre",
+  contactWindow_placeholderWsp: "Tu WhatsApp",
 };
 
 export const TextButtons = {
   portada_btn2: "Contacto",
   portada_btn1: "Servicios",
-  proy_btn2: "Proyecto",
-  proy_btn1: "Detalles",
   contact: "CONTACTO",
 }
