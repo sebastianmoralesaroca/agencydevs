@@ -1,10 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import ReactDOM from "react-dom/client";
 
-import { Home } from './js/app/homeAPP';
-import { Services } from './js/app/servicesAPP';
-import { MenuApp, Contact, Footer, Header, ContactWindow,  } from "./js/components/sectionsCOM" ;
-import { Project } from './js/app/projectAPP' ;
+import { Footer, Header, } from "./js/components/sectionsCOM" ;
+import { Contact } from './js/components/contactCOM' ;
+import { MenuApp } from './js/components/menuAppComp' ;
+
 
 
 ReactDOM.createRoot(document.getElementById("root")).render(
@@ -13,6 +13,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Header />
     </header>
     <main className='contMain'>
+      <MenuApp />
       <Contact />
     </main>
     <footer className='contFooter'>

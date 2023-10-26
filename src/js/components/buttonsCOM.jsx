@@ -21,31 +21,3 @@ export const ButtonRRSS = () => {
         </div>
     )
 }
-
-// Button Contact
-export const ButtonContact = (props) => {
-    return (
-        <div className='contBtnContact'>
-            <button className="contBtnContact_button" onClick={props.function} type="button">{ TextButtons.contact }<img className='cont_btnContact_image' src={ ImagensHome.calidad } alt="" style={{width:"20px"}}/></button>
-        </div>
-    )
-}
-
-const Saludo = () => {
-    return (
-        <div>
-            console.log("g");
-            
-        </div>
-        )
-}
-
-export const InputContact = () => {
-    return (
-        <div className='contInput'>
-            <input className='contInput_input' type='number' name='input' placeholder={ TextContact.contactWindow_placeholderName } />
-            <input className='contInput_input' type='number' name='input' placeholder={ TextContact.contactWindow_placeholderWsp } />
-            <button className='contInput_button' type="submit">{ TextContact.btn_submit }</button>
-        </div>
-    )
-}

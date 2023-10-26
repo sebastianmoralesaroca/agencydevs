@@ -5,6 +5,7 @@ export const ImagensHome = {
   movile: '../../public/movilefristImage.png',
   linkedin: '../../public/linkedinIcon.svg',
   instagram: '../../public/instagramIcon.svg',
+  cancel: '../../public/cancelIcon.svg',
 };
 
 export const ImagensMenu = {
