@@ -1,5 +1,4 @@
 import { TextButtons } from "../assets/textsASS" ;
-import { ButtonsPrin } from "./buttonsCOM";
 
 
 // Card Home About

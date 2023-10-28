@@ -1,8 +1,5 @@
 import { TextHeaderFooter } from "../assets/textsASS" ;
-import { ImagensMenu } from "../assets/imagensASS" ;
-import { LinksMenu } from "../assets/linksASS" ;
-import { TextContact } from "../assets/textsASS";
-import { useState } from "react";
+
 
 
 

@@ -1,14 +1,13 @@
 import { ImagensHome } from '../assets/imagensASS';
-import { TextHome, TextButtons } from '../assets/textsASS';
-import { ButtonsPrin, ButtonRRSS } from '../components/buttonsCOM' ;
+import { TextHome } from '../assets/textsASS';
 import { CardAbout, CardProy, CardServ,  } from '../components/cardsCOM' ;
-import {  } from "../assets/linksASS" ;
 import { ObjProject } from '../assets/projectASS' ;
 import { ObjServices } from '../assets/servicesASS';
+import { useState } from 'react';
+import { Services } from "./servicesAPP";
 
 
-
-export const Home= () => {
+export const Home= ( props ) => {
     return (
         <>
         <section className='sectPort'>
@@ -19,8 +18,9 @@ export const Home= () => {
                 <p className='sectPort_contTitle_subtitle'>{ TextHome.portada_subtitle }</p>
                 <h1 className='sectPort_contTitle_title'>{ TextHome.portada_title }</h1>
             </div>
-            <ButtonsPrin text1={ TextButtons.portada_btn1 } text2={ TextButtons.portada_btn2 } />
-            <ButtonRRSS />
+            <div>
+                <button type="button" onClick={props.serv}>Servicios</button>
+            </div>
         </section>
         <section className='sectAbout'>
             <div className='sectAbout_contTitle'>

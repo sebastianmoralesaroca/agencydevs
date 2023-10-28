@@ -22,11 +22,11 @@ export const TextHeaderFooter = {
 export const TextContact = {
   subtitle: "Te Espero",
   title: "Hablemos!",
-  btn_contact: "Contaccto",
+  btn_contact: "Contacto",
   input: "Enviar WhatsApp",
   btn_submit: "ENVIAR",
-  contactWindow_title: "Hablemos por WhatsApp",
-  contactWindow_subtitle: "Dale hablemos por WhatsApp, no recibirás spam, publicidad ni llamadas incómodas. Quiero que hablemos de manera cómoda por el canal de comunicación que todo el mundo utiliza. Introduce tu Nombre y tu WhatsApp, luego yo te escribo a tu teléfono.",
+  contactWindow_text: "Introduce tus Datos",
+  contact_text: "Dale hablemos por WhatsApp, no recibirás spam, publicidad ni llamadas incómodas. Quiero que hablemos de manera cómoda por el canal de comunicación que todo el mundo utiliza. Introduce tu Nombre y tu WhatsApp, luego yo te escribo a tu teléfono.",
   contactWindow_placeholderName: "Tu Nombre",
   contactWindow_placeholderWsp: "Tu WhatsApp",
 };
