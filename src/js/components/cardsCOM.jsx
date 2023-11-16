@@ -5,7 +5,7 @@ import { TextButtons } from "../assets/textsASS" ;
 export const CardAbout = ( props ) => {
     return (
         <div className='cont_cardAbout'>
-            <img className='img_cardAbout' src={ props.img } alt="" style={{width:"50px"}} />
+            <img className='img_cardAbout' src={ props.img } alt="" />
             <h4 className='title_cardAbout'>{ props.title }</h4>
             <p className='text_cardAbout'>{ props.text }</p>
         </div>
@@ -16,7 +16,7 @@ export const CardAbout = ( props ) => {
 export const Item_CardServ = (props) => {
     return (
         <div className='contCard_serv_contItem'>
-            <img className='contCard_serv_contItem_itemImg' src={ props.itemImg } alt="" style={{width:"20px"}} />
+            <img className='contCard_serv_contItem_itemImg' src={ props.itemImg } alt="" />
             <h4 className='contCard_serv_contItem_itemText'>{props.itemText}</h4>
         </div>
     )
@@ -40,10 +40,10 @@ export const CardServ = (props) => {
 export const CardProy = (props) => {
     return (
         <div className='contCard_proy'>
-            <img className='contCard_proy_image' src={ props.image } alt="" style={{width:"50px"}} />
+            <img className='contCard_proy_image' src={ props.image } alt="" />
             <h3 className='contCard_proy_title'>{ props.title }</h3>
             <p className='contCard_proy_text'>{props.text}</p>
-            <button className='btnPrin' type="button">Ver Proyecto<a href={props.link}></a></button>
+            <button className='btnPrin' type="button">{props.btn}<a href={props.link}></a></button>
         </div>
     )
 }

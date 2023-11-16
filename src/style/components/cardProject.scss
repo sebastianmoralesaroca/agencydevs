@@ -1,0 +1,42 @@
+@import '../utils/textUti.scss' ;
+@import '../components/buttons.scss' ;
+@import '../base/colorBace.scss' ;
+
+// card project mobile
+@mixin cardProject {
+    .contCard_proy {
+        padding: 5% ;
+        margin: 5% ;
+        text-align: center ;
+        border: solid 2px $color_black ;
+        border-radius: 20px ;
+
+        .contCard_proy_image {
+            width: 100% ;
+            height: 100% ;
+        }
+
+        .contCard_proy_title {
+            @include fontTitleCardPoject ;
+        }
+
+        .contCard_proy_text {
+            @include fontTextCardProject ;
+        }
+
+        .btnPrin {
+            @include buttonPrins ;
+            margin: 5% ;
+        }
+    }
+}
+
+// card project desktop
+@mixin cardProject_desktop {
+    .contCard_proy {
+        height: fit-content ;
+        .contCard_proy_image {
+            height: 75% ;
+        }
+    }
+}

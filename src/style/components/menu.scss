@@ -1,0 +1,30 @@
+@import '../base/colorBace.scss' ;
+
+.contMenu {
+    .contMenu_nav {
+        position: fixed ;
+        top: 69% ;
+        width: 100% ;
+
+        .contMenu_navUL {
+            list-style: none ;
+            display: flex ;
+            justify-content: space-around ;
+            background-color: $color_whiteLigth ;
+            padding: 5% 0% ;
+
+        .contMenu_navUl_li {
+
+            .contMenu_navUl_li_btn {
+                background: transparent ;
+                border: none ;
+
+                .contMenu_navUl_li_image {
+                    width: 25px ;
+                    height: 25px ;
+                }
+            }
+        }
+    }
+    }
+}

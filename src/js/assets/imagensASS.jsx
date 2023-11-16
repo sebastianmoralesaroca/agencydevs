@@ -1,16 +1,16 @@
 export const ImagensHome = {
-  mePortada: '../../public/meImage.jpg',
-  meAbout: '../../public/meaboutImage.jpg',
-  medal: '../../public/medalImage.png',
-  movile: '../../public/movilefristImage.png',
-  linkedin: '../../public/linkedinIcon.svg',
-  instagram: '../../public/instagramIcon.svg',
-  cancel: '../../public/cancelIcon.svg',
+  mePortada: '../../public/imagens/meImage.jpg',
+  meAbout: '../../public/imagens/meaboutImage.jpg',
+  medal: '../../public/icons/medalIcon.svg',
+  movile: '../../public/icons/phoneIcon.svg',
+  linkedin: '../../public/icons/linkedinIcon.svg',
+  instagram: '../../public/icons/instagramIcon.svg',
+  contactWin: '../../public/icons/whatsapp_icon.svg',
 };
 
 export const ImagensMenu = {
-  home: '../../public/homeIcon.svg',
-  services: '../../public/servicesIcon.svg',
-  proyect: '../../public/projectIcon.svg',
-  contact: '../../public/contactIcon.svg',
+  home: '../../public/icons/homeIcon.svg',
+  services: '../../public/icons/servicesIcon.svg',
+  proyect: '../../public/icons/projectIcon.svg',
+  contact: '../../public/icons/contactIcon.svg',
 }

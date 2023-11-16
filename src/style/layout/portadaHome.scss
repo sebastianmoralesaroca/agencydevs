@@ -1,0 +1,46 @@
+@import '../utils/textUti.scss' ;
+@import '../components/buttons.scss' ;
+
+.sectPort {
+    margin-top: 0px ;
+    margin-bottom: 120px ;
+
+    .sectPort_contImg {
+        text-align: center ;
+        padding: 5% ;
+
+        .sectPort_contImg_image {
+            width: 175px ;
+            height: 175px ;
+            border-radius: 50% ;
+        }
+    }
+
+    .sectPort_contPrin {
+        text-align: center ;
+
+        .sectPort_contTitle_subtitle {
+            @include fontSubtitle ;
+        }
+
+        .sectPort_contTitle_title {
+            @include fontTitle ;
+        }
+        .contServices {
+        padding: 2% ;
+        
+        .button_services {
+            @include buttonPrins ;
+            width: 150px ;
+            }
+        }
+    
+        .contRRSS {
+            padding: 2% ;
+    
+            .buton_RRSS {
+                @include mixButtonRRSS ;
+            }
+        }
+    }
+}

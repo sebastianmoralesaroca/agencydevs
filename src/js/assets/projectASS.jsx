@@ -1,40 +1,46 @@
   class ClassObjProject {
     constructor () {
-      this.project_1 = {
-        image: '../../public/project1Image.png',
+      this.travel = {
+        image: '../../public/imagens/travelImage.png',
         title: "Travel",
         text: "HTML CSS SASS",
         link: '',
+        btn: "Ver Proyecto"
       }
-      this.project_2 = {
-        image: '../../public/project1Image.png',
-        title: "Project 2",
+      this.breadShop = {
+        image: '../../public/imagens/panaderiaImage.png',
+        title: "Panaderia",
         text: "HTML CSS SASS",
         link: '',
+        btn: "Ver Proyecto"
       }
-      this.project_3 = {
-        image: '../../public/project1Image.png',
-        title: "Project 3",
-        text: "",
+      this.carLux = {
+        image: '../../public/imagens/cardeluxImage.png',
+        title: "Autos de Lujo",
+        text: "HTML CSS SASS",
         link: '',
+        btn: "Ver Proyecto"
       }
       this.project_4 = {
-        image: '../../public/project1Image.png',
+        image: '../../public/icons/calidad.png',
         title: "Project 4",
         text: "",
         link: '',
+        btn: "Ver Proyecto"
       }
       this.project_5 = {
-        image: '../../public/project1Image.png',
+        image: '../../public/icons/calidad.png',
         title: "Project 5",
         text: "",
         link: '',
+        btn: "Ver Proyecto"
       }
-      this.project_6 = {
-        image: '../../public/project1Image.png',
-        title: "Project 6",
-        text: "",
+      this.instagram = {
+        image: '../../public/imagens/instagramImage.svg',
+        title: "Instagram",
+        text: "Mira todos mis proyectos en mi Instagram",
         link: '',
+        btn: "Instagram"
       }
     }
   }

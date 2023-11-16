@@ -1,0 +1,23 @@
+@import '../utils/textUti.scss' ;
+@import '../components/cardProject.scss' ;
+
+
+.sectProy {
+    padding: 5% ;
+    margin-top: 80px ;
+
+    .sectProy_contTitle {
+        text-align: center ;
+
+        .sectProy_contTitle_subtitle {
+            @include fontSubtitle ;
+        }
+
+        .sectProy_contTitle_title {
+            @include fontTitle ;
+        }
+    }
+    .sectPtoy_contCard {
+        @include cardProject ;
+    }
+}

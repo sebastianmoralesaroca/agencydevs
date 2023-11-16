@@ -1,0 +1,25 @@
+@import '../utils/textUti.scss' ;
+@import '../components/cardServices.scss' ;
+
+
+
+.sectServ {
+    padding: 5% ;
+    text-align: center ;
+    margin-top: 80px ;
+
+    .sectServ_contTitle {
+
+        .sectServ_contTitle_subtitle {
+        @include fontSubtitle ;
+        }
+
+        .sectServ_contTitle_title {
+        @include fontTitle ;
+        }
+    }
+
+    .sectServ_contCards{
+        @include cardServices ;
+    }
+}

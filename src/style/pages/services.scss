@@ -1,0 +1,33 @@
+@import '../utils/textUti.scss' ;
+@import '../components/cardServices.scss' ;
+
+
+.sectServices {
+    padding: 5% ;
+
+    .sectServices_contText {
+        text-align: center ;
+
+        .sectServices_contText_text {
+            @include fontSubtitle ; //utils
+        }
+
+        .sectServices_contText_title {
+            @include fontTitle //utils
+        }
+    }
+
+    .sectServices_contCard {
+        @include cardServices ; //components
+    }
+    .sectServices_contCard_2 {
+        @include cardServices ; //components
+    }
+    .sectServices_contCard_3 {
+        @include cardServices ; //componenst
+    }
+}
+
+
+// Breackpoints
+@import '../breakpoints/bp_services.scss' ;

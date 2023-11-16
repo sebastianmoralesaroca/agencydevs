@@ -15,6 +15,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     </header>
     <main className='contMain'>
       <MenuApp/>
+      <Contact />
     </main>
     <footer className='contFooter'>
       <Footer />

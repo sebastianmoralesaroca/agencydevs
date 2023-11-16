@@ -1,0 +1,97 @@
+@import '../base/breakpoints_base.scss' ;
+@import '../components/cardAbout.scss' ;
+@import '../components/cardServices.scss' ;
+@import '../components/cardProject.scss' ;
+
+
+// Breakpoints Desktop
+@media (min-width: $querisDesktop ) {
+    .sectPort {
+        display: grid ;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 60px ;
+        padding-left: 20% ;
+        padding-right: 20% ;
+        margin: 90px 0px 170px 0px ;
+        .sectPort_contImg {
+            text-align: end ;
+            .sectPort_contImg_image {
+                width: 280px ;
+                height: 280px ;
+            }
+        }
+        .sectPort_contPrin {
+            text-align: start ;
+            margin: auto ;
+            margin-left: 0px ;
+        }
+    }
+    .sectAbout {
+        .sectAbout_contPrin {
+            margin-top: 50px ;
+            display: grid ;
+            grid-template-columns: repeat(2, 1fr) ;
+            .sectAbout_contPrin_contImage {
+                .sectAbout_contImg_image {
+                    width: 400px ;
+                    height: 400px ;
+                }
+            }
+            .sectAbout_contPrin_contCardText {
+                .sectAbout_contCards {
+                    //componenets
+                    @include cardAbout_desktop ;
+                }
+                .sectAbout_contText_text {
+                    font-size: 17px ;
+                }
+            }
+        }
+    }
+    .sectServ {
+        .sectServ_contCards {
+            margin-top: 50px ;
+            display: grid ;
+            grid-template-columns: repeat(2, 1fr);
+            @include cardServices_desktop ; //components
+        }
+    }
+    .sectProy {
+        .sectPtoy_contCard {
+            margin-top: 50px ;
+            display: grid ;
+            grid-template-columns: repeat(3, 1fr);
+            //components
+            @include cardProject_desktop ;
+        }
+    }
+}
+
+
+// Breakpoints Tablet
+@media (min-width: $querisMovil ) and (max-width: $querisDesktop ) {
+    .sectPort {
+        .sectPort_contImg {
+            .sectPort_contImg_image {
+                width: 240px ;
+                height: 240px ;
+            }
+        }
+    }
+    .sectServ {
+        .sectServ_contCards {
+            margin-top: 50px ;
+            display: grid ;
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    .sectProy {
+        .sectPtoy_contCard {
+            margin-top: 50px ;
+            display: grid ;
+            grid-template-columns: repeat(3, 1fr);
+            @include cardProject_desktop ; //components
+        }
+    }
+}
+

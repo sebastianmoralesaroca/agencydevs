@@ -1,0 +1,21 @@
+// base
+@import './style/base/colorBace.scss' ;
+@import './style/base/defectsBace.scss' ;
+@import './style/base/breakpoints_base.scss' ;
+
+// layout Components
+@import './style/components/menu.scss' ;
+@import './style/components/header&footerComp.scss' ;
+@import './style/layout/contact.scss' ;
+@import './style/layout/contactWindow.scss' ;
+
+
+// pages
+@import './style/pages/home.scss' ;
+@import './style/pages/services.scss' ;
+@import './style/pages/projects.scss' ;
+
+// breakpoits Components
+@import './style/breakpoints/bp_menu.scss' ;
+@import './style/breakpoints/bp_contact&window.scss' ;
+@import './style/breakpoints/bp_header&Footer.scss' ;

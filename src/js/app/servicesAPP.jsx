@@ -29,6 +29,8 @@ export const Services= () => {
                     itemText5={ ObjServices.ecommerce.text5 } itemImg5={ ObjServices.ecommerce.img5 }
                     itemText6={ ObjServices.ecommerce.text6 } itemImg6={ ObjServices.ecommerce.img6 }
                 />
+            </div>
+            <div className='sectServices_contCard_2'>
                 <CardServ
                     title={ ObjServices.integrations.title }
                     itemText1={ ObjServices.integrations.text1 } itemImg1={ ObjServices.integrations.img1 }
@@ -38,7 +40,7 @@ export const Services= () => {
                     itemText5={ ObjServices.integrations.text5 } itemImg5={ ObjServices.integrations.img5 }
                     itemText6={ ObjServices.integrations.text6 } itemImg6={ ObjServices.integrations.img6 }
                 />
-                <CardServ
+            <CardServ
                     title={ ObjServices.supportOptimizatios.title }
                     itemText1={ ObjServices.supportOptimizatios.text1 } itemImg1={ ObjServices.supportOptimizatios.img1 }
                     itemText2={ ObjServices.supportOptimizatios.text2 } itemImg2={ ObjServices.supportOptimizatios.img2 }
@@ -47,6 +49,8 @@ export const Services= () => {
                     itemText5={ ObjServices.supportOptimizatios.text5 } itemImg5={ ObjServices.supportOptimizatios.img5 }
                     itemText6={ ObjServices.supportOptimizatios.text6 } itemImg6={ ObjServices.supportOptimizatios.img6 }
                 />
+            </div>
+            <div className='sectServices_contCard_3'>
                 <CardServ
                     title={ ObjServices.appWeb.title }
                     itemText1={ ObjServices.appWeb.text1 } itemImg1={ ObjServices.appWeb.img1 }
@@ -55,7 +59,7 @@ export const Services= () => {
                     itemText4={ ObjServices.appWeb.text4 } itemImg4={ ObjServices.appWeb.img4 }
                     itemText5={ ObjServices.appWeb.text5 } itemImg5={ ObjServices.appWeb.img5 }
                     itemText6={ ObjServices.appWeb.text6 } itemImg6={ ObjServices.appWeb.img6 }
-                />
+                    />
             </div>
         </section>
     )

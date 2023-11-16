@@ -1,0 +1,68 @@
+@import '../base/breakpoints_base.scss' ;
+@import '../components/cardServices.scss' ;
+
+
+// Breakpoints Desktop
+@media (min-width: $querisDesktop ) {
+    .sectServices {
+        .sectServices_contText {
+            margin-bottom: 50px ;
+        }
+        .sectServices_contCard {
+            display: grid ;
+            grid-template-columns: repeat(2, 1fr) ;
+            grid-gap: 10px ;
+            @include cardServices_desktop ; //components
+            margin-bottom: 30px ;
+        }
+        .sectServices_contCard_2 {
+            display: grid ;
+            grid-template-columns: repeat(2, 1fr) ;
+            @include cardServices_desktop ; //compoents
+            margin-bottom: 30px ;
+        }
+        .sectServices_contCard_3 {
+            display: grid ;
+            grid-template-columns: repeat(1, 1fr);
+            padding: 0% 23% ;
+            @include cardServices_desktop ; //compoents
+            margin-bottom: 30px ;
+        }
+    }
+}
+
+
+// Breackpoints Tablet
+@media (min-width: $querisMovil ) and (max-width: $querisDesktop ) {
+    .sectServices {
+        .sectServices_contText {
+            margin-bottom: 50px ;
+        }
+        .sectServices_contCard {
+            display: grid ;
+            grid-template-columns: repeat(2, 1fr) ;
+            grid-gap: 10px ;
+            @include cardServices_desktop ; //components
+            .contCard_serv {
+                width: 85% ;
+            }
+        }
+        .sectServices_contCard_2 {
+            display: grid ;
+            grid-template-columns: repeat(2, 1fr) ;
+            @include cardServices_desktop ; //compoents
+            .contCard_serv {
+                width: 85% ;
+            }
+        }
+        .sectServices_contCard_3 {
+            display: grid ;
+            grid-template-columns: repeat(1, 1fr);
+            @include cardServices_desktop ; //compoents
+            padding: 0% 23% ;
+            .contCard_serv {
+                width: 85% ;
+            }
+        }
+    }
+}

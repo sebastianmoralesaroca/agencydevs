@@ -1,0 +1,81 @@
+@import '../base/colorBace.scss' ;
+@import '../base/fontBace.scss' ;
+
+
+@mixin fontTitle {
+  font-family: $fontFam_title;
+  font-size: 40px;
+  font-weight: 600;
+  color: $color_black;
+}
+
+@mixin fontSubtitle {
+    font-family: $fontFam_text;
+    font-size: 18px;
+    font-weight: 400;
+    color: $color_blackLigth;
+}
+
+@mixin fontText {
+    font-family: $fontFam_text;
+    font-size: 16px;
+    font-weight: 400;
+    color: $color_blackLigth;
+}
+
+
+@mixin fontHeader {
+    font-family: $fontFam_title;
+    font-size: 25px;
+    font-weight: 500;
+    color: $color_black;
+}
+
+@mixin fontFooter {
+    font-family: $fontFam_text;
+    font-size: 14px;
+    font-weight: 400;
+    color: $color_blackLigth;
+}
+
+@mixin fontTitleCardAbout {
+    font-family: $fontFam_title ;
+    font-size: 16px ;
+    font-weight: 400 ;
+    color: $color_black ;
+}
+
+@mixin fontTextCardAbout {
+    font-family: $fontFam_text ;
+    font-size: 13px ;
+    font-weight: 400 ;
+    color: $color_blackLigth ;
+}
+
+@mixin fontTitleCardServices {
+    font-family: $fontFam_text ;
+    font-size: 22px ;
+    font-weight: 500 ;
+    color: $color_black ;
+}
+
+@mixin fontTextCardServices {
+    font-family: $fontFam_text ;
+    font-size: 18px ;
+    font-weight: 400 ;
+    color: $color_blackLigth ;
+}
+
+@mixin fontTitleCardPoject {
+    font-family: $fontFam_title ;
+    font-size: 24px ;
+    font-weight: 500 ;
+    color: $color_black
+}
+
+@mixin fontTextCardProject {
+    font-family: $fontFam_text ;
+    font-size: 13px ;
+    font-weight: 400 ;
+    color: $color_blackLigth ;
+}

@@ -1,0 +1,419 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+.sectPort {
+  margin-top: 0px;
+  margin-bottom: 120px;
+}
+.sectPort .sectPort_contImg {
+  text-align: center;
+  padding: 5%;
+}
+.sectPort .sectPort_contImg .sectPort_contImg_image {
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+}
+.sectPort .sectPort_contPrin {
+  text-align: center;
+}
+.sectPort .sectPort_contPrin .sectPort_contTitle_subtitle {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #555555;
+}
+.sectPort .sectPort_contPrin .sectPort_contTitle_title {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  color: #000000;
+}
+.sectPort .sectPort_contPrin .contServices {
+  padding: 2%;
+}
+.sectPort .sectPort_contPrin .contServices .button_services {
+  border: solid 2px #555555;
+  border-radius: 25px;
+  background-color: transparent;
+  color: #000000;
+  padding: 10px 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #555555;
+  width: 150px;
+}
+.sectPort .sectPort_contPrin .contServices .button_services:hover {
+  background-color: #555555;
+  color: #F3F3F3;
+}
+.sectPort .sectPort_contPrin .contRRSS {
+  padding: 2%;
+}
+.sectPort .sectPort_contPrin .contRRSS .buton_RRSS {
+  border: none;
+  background: transparent;
+  padding: 2% 4%;
+}
+.sectPort .sectPort_contPrin .contRRSS .buton_RRSS img {
+  width: 32px;
+  height: 32px;
+}
+
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+.sectAbout {
+  padding: 0% 5%;
+  text-align: center;
+}
+.sectAbout .sectAbout_contTitle .sectAbout_contTitle_subtitle {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #555555;
+}
+.sectAbout .sectAbout_contTitle .sectAbout_contTitle_title {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  color: #000000;
+}
+.sectAbout .sectAbout_contPrin .sectAbout_contPrin_contImage .sectAbout_contImg_image {
+  width: 250px;
+  height: 250px;
+  border-radius: 20%;
+}
+.sectAbout .sectAbout_contPrin .sectAbout_contPrin_contCardText .sectAbout_contCards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5%;
+  margin: 25px 0px 40px 0px;
+}
+.sectAbout .sectAbout_contPrin .sectAbout_contPrin_contCardText .sectAbout_contCards .cont_cardAbout {
+  border: solid 2px #000000;
+  padding: 5%;
+  border-radius: 20px;
+}
+.sectAbout .sectAbout_contPrin .sectAbout_contPrin_contCardText .sectAbout_contCards .img_cardAbout {
+  width: 20px;
+  height: 20px;
+}
+.sectAbout .sectAbout_contPrin .sectAbout_contPrin_contCardText .sectAbout_contCards .title_cardAbout {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+}
+.sectAbout .sectAbout_contPrin .sectAbout_contPrin_contCardText .sectAbout_contCards .text_cardAbout {
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #555555;
+}
+.sectAbout .sectAbout_contPrin .sectAbout_contPrin_contCardText .sectAbout_contText_text {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #555555;
+  text-align: start;
+}
+
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+.sectServ {
+  padding: 5%;
+  text-align: center;
+  margin-top: 80px;
+}
+.sectServ .sectServ_contTitle .sectServ_contTitle_subtitle {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #555555;
+}
+.sectServ .sectServ_contTitle .sectServ_contTitle_title {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  color: #000000;
+}
+.sectServ .sectServ_contCards .contCard_serv {
+  border: solid 2px #000000;
+  border-radius: 20px;
+  padding: 5%;
+  text-align: center;
+  margin: 5%;
+}
+.sectServ .sectServ_contCards .contCard_serv .contCard_serv_title {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  color: #000000;
+}
+.sectServ .sectServ_contCards .contCard_serv .contCard_serv_contItem {
+  text-align: left;
+  padding: 5% 10%;
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+.sectServ .sectServ_contCards .contCard_serv .contCard_serv_contItem .contCard_serv_contItem_itemImg {
+  width: 30px;
+  height: 30px;
+}
+.sectServ .sectServ_contCards .contCard_serv .contCard_serv_contItem .contCard_serv_contItem_itemText {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #555555;
+}
+
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+.sectProy {
+  padding: 5%;
+  margin-top: 80px;
+}
+.sectProy .sectProy_contTitle {
+  text-align: center;
+}
+.sectProy .sectProy_contTitle .sectProy_contTitle_subtitle {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #555555;
+}
+.sectProy .sectProy_contTitle .sectProy_contTitle_title {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  color: #000000;
+}
+.sectProy .sectPtoy_contCard .contCard_proy {
+  padding: 5%;
+  margin: 5%;
+  text-align: center;
+  border: solid 2px #000000;
+  border-radius: 20px;
+}
+.sectProy .sectPtoy_contCard .contCard_proy .contCard_proy_image {
+  width: 100%;
+  height: 100%;
+}
+.sectProy .sectPtoy_contCard .contCard_proy .contCard_proy_title {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: #000000;
+}
+.sectProy .sectPtoy_contCard .contCard_proy .contCard_proy_text {
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #555555;
+}
+.sectProy .sectPtoy_contCard .contCard_proy .btnPrin {
+  border: solid 2px #555555;
+  border-radius: 25px;
+  background-color: transparent;
+  color: #000000;
+  padding: 10px 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #555555;
+  margin: 5%;
+}
+.sectProy .sectPtoy_contCard .contCard_proy .btnPrin:hover {
+  background-color: #555555;
+  color: #F3F3F3;
+}
+
+/*
+
+// Movil
+@media ( max-width: $querisMovil ) {}
+// Tablet
+@media (min-width: $querisMovil ) and (max-width: $querisDesktop ) {}
+// Desktop
+@media (min-width: $querisDesktop ) {}
+
+*/
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+@media (min-width: 780px) and (max-width: 1024px) {
+  .sectPort .sectPort_contImg .sectPort_contImg_image {
+    width: 240px;
+    height: 240px;
+  }
+  .sectServ .sectServ_contCards {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .sectProy .sectPtoy_contCard {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .sectProy .sectPtoy_contCard .contCard_proy {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .sectProy .sectPtoy_contCard .contCard_proy .contCard_proy_image {
+    height: 75%;
+  }
+}
+/*
+
+// Movil
+@media ( max-width: $querisMovil ) {}
+// Tablet
+@media (min-width: $querisMovil ) and (max-width: $querisDesktop ) {}
+// Desktop
+@media (min-width: $querisDesktop ) {}
+
+*/
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+@media (min-width: 1024px) {
+  .sectPort {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 60px;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  .sectPort .sectPort_contImg {
+    text-align: end;
+  }
+  .sectPort .sectPort_contImg .sectPort_contImg_image {
+    width: 280px;
+    height: 280px;
+  }
+  .sectPort .sectPort_contPrin {
+    text-align: start;
+    margin: auto;
+    margin-left: 0px;
+  }
+  .sectAbout .sectAbout_contPrin {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .sectAbout .sectAbout_contPrin .sectAbout_contPrin_contImage .sectAbout_contImg_image {
+    width: 400px;
+    height: 400px;
+  }
+  .sectAbout .sectAbout_contPrin .sectAbout_contPrin_contCardText .sectAbout_contCards .cont_cardAbout {
+    padding: 10%;
+  }
+  .sectAbout .sectAbout_contPrin .sectAbout_contPrin_contCardText .sectAbout_contCards .img_cardAbout {
+    width: 30px;
+    height: 30px;
+  }
+  .sectAbout .sectAbout_contPrin .sectAbout_contPrin_contCardText .sectAbout_contCards .title_cardAbout {
+    font-size: 20px;
+  }
+  .sectAbout .sectAbout_contPrin .sectAbout_contPrin_contCardText .sectAbout_contCards .text_cardAbout {
+    font-size: 16px;
+  }
+  .sectAbout .sectAbout_contPrin .sectAbout_contPrin_contCardText .sectAbout_contText_text {
+    font-size: 17px;
+  }
+  .sectServ .sectServ_contCards {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .sectServ .sectServ_contCards .contCard_serv {
+    width: 60%;
+    height: 87%;
+    margin: auto;
+    margin-top: 0px;
+  }
+  .sectServ .sectServ_contCards .contCard_serv .contCard_serv_title {
+    font-size: 30px;
+  }
+  .sectServ .sectServ_contCards .contCard_serv .contCard_serv_contItem_itemImg {
+    width: 40px;
+    height: 40px;
+  }
+  .sectServ .sectServ_contCards .contCard_serv .contCard_serv_contItem_itemText {
+    font-size: 20px;
+  }
+  .sectProy .sectPtoy_contCard {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .sectProy .sectPtoy_contCard .contCard_proy {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .sectProy .sectPtoy_contCard .contCard_proy .contCard_proy_image {
+    height: 75%;
+  }
+}/*# sourceMappingURL=index.css.map */

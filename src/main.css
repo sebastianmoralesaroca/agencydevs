@@ -1,1 +1,1054 @@
-/*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+}
+
+/*
+
+// Movil
+@media ( max-width: $querisMovil ) {}
+// Tablet
+@media (min-width: $querisMovil ) and (max-width: $querisDesktop ) {}
+// Desktop
+@media (min-width: $querisDesktop ) {}
+
+*/
+.contMenu .contMenu_nav {
+  position: fixed;
+  top: 69%;
+  width: 100%;
+}
+.contMenu .contMenu_nav .contMenu_navUL {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  background-color: #E6E6E6;
+  padding: 5% 0%;
+}
+.contMenu .contMenu_nav .contMenu_navUL .contMenu_navUl_li .contMenu_navUl_li_btn {
+  background: transparent;
+  border: none;
+}
+.contMenu .contMenu_nav .contMenu_navUL .contMenu_navUl_li .contMenu_navUl_li_btn .contMenu_navUl_li_image {
+  width: 25px;
+  height: 25px;
+}
+
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+.contHeader {
+  width: 100%;
+  padding: 7% 5%;
+}
+.contHeader .contSecondHeader .title_header {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.contFooter {
+  padding: 5%;
+  background-color: #E6E6E6;
+}
+.contFooter .contSecondFooter {
+  text-align: center;
+}
+.contFooter .contSecondFooter .textFooter {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #555555;
+}
+
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+.cont_contPrin {
+  padding: 5%;
+  margin: 30px 0px;
+}
+.cont_contPrin .cont_contPrin_contTitle {
+  text-align: center;
+}
+.cont_contPrin .cont_contPrin_contTitle .cont_contPrin_contTitle_subtitle {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #555555;
+}
+.cont_contPrin .cont_contPrin_contTitle .cont_contPrin_contTitle_title {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  color: #000000;
+}
+.cont_contPrin .cont_contPrin_contTitle .contContactWindow_contTitle_text {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #555555;
+}
+
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+.contContactWindow {
+  padding: 10%;
+  margin: 5%;
+  background-color: #E6E6E6;
+  height: 400px;
+  border-radius: 20px;
+  position: fixed;
+  top: 2%;
+  left: 0px;
+  width: 70%;
+}
+.contContactWindow .contContactWindow_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.contContactWindow .contContactWindow_container .imagensWindow {
+  width: auto;
+  height: 160px;
+  margin: auto;
+  margin-top: inherit;
+}
+.contContactWindow .contContactWindow_container .contContactWindow_title {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #555555;
+  margin-bottom: 5px;
+}
+.contContactWindow .contContactWindow_container .contInput_input {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #555555;
+  border: solid 2px #000000;
+  border-radius: 8px;
+  padding: 4%;
+  margin: 5px 0px;
+}
+.contContactWindow .contContactWindow_container .contInput_button {
+  border: solid 2px #555555;
+  border-radius: 25px;
+  background-color: transparent;
+  color: #000000;
+  padding: 10px 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #555555;
+  margin-top: 5px;
+}
+.contContactWindow .contContactWindow_container .contInput_button:hover {
+  background-color: #555555;
+  color: #F3F3F3;
+}
+
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+.sectPort {
+  margin-top: 0px;
+  margin-bottom: 120px;
+}
+.sectPort .sectPort_contImg {
+  text-align: center;
+  padding: 5%;
+}
+.sectPort .sectPort_contImg .sectPort_contImg_image {
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+}
+.sectPort .sectPort_contPrin {
+  text-align: center;
+}
+.sectPort .sectPort_contPrin .sectPort_contTitle_subtitle {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #555555;
+}
+.sectPort .sectPort_contPrin .sectPort_contTitle_title {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  color: #000000;
+}
+.sectPort .sectPort_contPrin .contServices {
+  padding: 2%;
+}
+.sectPort .sectPort_contPrin .contServices .button_services {
+  border: solid 2px #555555;
+  border-radius: 25px;
+  background-color: transparent;
+  color: #000000;
+  padding: 10px 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #555555;
+  width: 150px;
+}
+.sectPort .sectPort_contPrin .contServices .button_services:hover {
+  background-color: #555555;
+  color: #F3F3F3;
+}
+.sectPort .sectPort_contPrin .contRRSS {
+  padding: 2%;
+}
+.sectPort .sectPort_contPrin .contRRSS .buton_RRSS {
+  border: none;
+  background: transparent;
+  padding: 2% 4%;
+}
+.sectPort .sectPort_contPrin .contRRSS .buton_RRSS img {
+  width: 32px;
+  height: 32px;
+}
+
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+.sectAbout {
+  padding: 0% 5%;
+  text-align: center;
+}
+.sectAbout .sectAbout_contTitle .sectAbout_contTitle_subtitle {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #555555;
+}
+.sectAbout .sectAbout_contTitle .sectAbout_contTitle_title {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  color: #000000;
+}
+.sectAbout .sectAbout_contPrin .sectAbout_contPrin_contImage .sectAbout_contImg_image {
+  width: 250px;
+  height: 250px;
+  border-radius: 20%;
+}
+.sectAbout .sectAbout_contPrin .sectAbout_contPrin_contCardText .sectAbout_contCards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5%;
+  margin: 25px 0px 40px 0px;
+}
+.sectAbout .sectAbout_contPrin .sectAbout_contPrin_contCardText .sectAbout_contCards .cont_cardAbout {
+  border: solid 2px #000000;
+  padding: 5%;
+  border-radius: 20px;
+}
+.sectAbout .sectAbout_contPrin .sectAbout_contPrin_contCardText .sectAbout_contCards .img_cardAbout {
+  width: 20px;
+  height: 20px;
+}
+.sectAbout .sectAbout_contPrin .sectAbout_contPrin_contCardText .sectAbout_contCards .title_cardAbout {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+}
+.sectAbout .sectAbout_contPrin .sectAbout_contPrin_contCardText .sectAbout_contCards .text_cardAbout {
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #555555;
+}
+.sectAbout .sectAbout_contPrin .sectAbout_contPrin_contCardText .sectAbout_contText_text {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #555555;
+  text-align: start;
+}
+
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+.sectServ {
+  padding: 5%;
+  text-align: center;
+  margin-top: 80px;
+}
+.sectServ .sectServ_contTitle .sectServ_contTitle_subtitle {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #555555;
+}
+.sectServ .sectServ_contTitle .sectServ_contTitle_title {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  color: #000000;
+}
+.sectServ .sectServ_contCards .contCard_serv {
+  border: solid 2px #000000;
+  border-radius: 20px;
+  padding: 5%;
+  text-align: center;
+  margin: 5%;
+}
+.sectServ .sectServ_contCards .contCard_serv .contCard_serv_title {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  color: #000000;
+}
+.sectServ .sectServ_contCards .contCard_serv .contCard_serv_contItem {
+  text-align: left;
+  padding: 5% 10%;
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+.sectServ .sectServ_contCards .contCard_serv .contCard_serv_contItem .contCard_serv_contItem_itemImg {
+  width: 30px;
+  height: 30px;
+}
+.sectServ .sectServ_contCards .contCard_serv .contCard_serv_contItem .contCard_serv_contItem_itemText {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #555555;
+}
+
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+.sectProy {
+  padding: 5%;
+  margin-top: 80px;
+}
+.sectProy .sectProy_contTitle {
+  text-align: center;
+}
+.sectProy .sectProy_contTitle .sectProy_contTitle_subtitle {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #555555;
+}
+.sectProy .sectProy_contTitle .sectProy_contTitle_title {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  color: #000000;
+}
+.sectProy .sectPtoy_contCard .contCard_proy {
+  padding: 5%;
+  margin: 5%;
+  text-align: center;
+  border: solid 2px #000000;
+  border-radius: 20px;
+}
+.sectProy .sectPtoy_contCard .contCard_proy .contCard_proy_image {
+  width: 100%;
+  height: 100%;
+}
+.sectProy .sectPtoy_contCard .contCard_proy .contCard_proy_title {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: #000000;
+}
+.sectProy .sectPtoy_contCard .contCard_proy .contCard_proy_text {
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #555555;
+}
+.sectProy .sectPtoy_contCard .contCard_proy .btnPrin {
+  border: solid 2px #555555;
+  border-radius: 25px;
+  background-color: transparent;
+  color: #000000;
+  padding: 10px 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #555555;
+  margin: 5%;
+}
+.sectProy .sectPtoy_contCard .contCard_proy .btnPrin:hover {
+  background-color: #555555;
+  color: #F3F3F3;
+}
+
+/*
+
+// Movil
+@media ( max-width: $querisMovil ) {}
+// Tablet
+@media (min-width: $querisMovil ) and (max-width: $querisDesktop ) {}
+// Desktop
+@media (min-width: $querisDesktop ) {}
+
+*/
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+@media (min-width: 1024px) {
+  .sectPort {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 60px;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin: 90px 0px 170px 0px;
+  }
+  .sectPort .sectPort_contImg {
+    text-align: end;
+  }
+  .sectPort .sectPort_contImg .sectPort_contImg_image {
+    width: 280px;
+    height: 280px;
+  }
+  .sectPort .sectPort_contPrin {
+    text-align: start;
+    margin: auto;
+    margin-left: 0px;
+  }
+  .sectAbout .sectAbout_contPrin {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .sectAbout .sectAbout_contPrin .sectAbout_contPrin_contImage .sectAbout_contImg_image {
+    width: 400px;
+    height: 400px;
+  }
+  .sectAbout .sectAbout_contPrin .sectAbout_contPrin_contCardText .sectAbout_contCards .cont_cardAbout {
+    padding: 10%;
+  }
+  .sectAbout .sectAbout_contPrin .sectAbout_contPrin_contCardText .sectAbout_contCards .img_cardAbout {
+    width: 30px;
+    height: 30px;
+  }
+  .sectAbout .sectAbout_contPrin .sectAbout_contPrin_contCardText .sectAbout_contCards .title_cardAbout {
+    font-size: 20px;
+  }
+  .sectAbout .sectAbout_contPrin .sectAbout_contPrin_contCardText .sectAbout_contCards .text_cardAbout {
+    font-size: 16px;
+  }
+  .sectAbout .sectAbout_contPrin .sectAbout_contPrin_contCardText .sectAbout_contText_text {
+    font-size: 17px;
+  }
+  .sectServ .sectServ_contCards {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .sectServ .sectServ_contCards .contCard_serv {
+    width: 60%;
+    height: 87%;
+    margin: auto;
+    margin-top: 0px;
+  }
+  .sectServ .sectServ_contCards .contCard_serv .contCard_serv_title {
+    font-size: 30px;
+  }
+  .sectServ .sectServ_contCards .contCard_serv .contCard_serv_contItem_itemImg {
+    width: 40px;
+    height: 40px;
+  }
+  .sectServ .sectServ_contCards .contCard_serv .contCard_serv_contItem_itemText {
+    font-size: 20px;
+  }
+  .sectProy .sectPtoy_contCard {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .sectProy .sectPtoy_contCard .contCard_proy {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .sectProy .sectPtoy_contCard .contCard_proy .contCard_proy_image {
+    height: 75%;
+  }
+}
+@media (min-width: 780px) and (max-width: 1024px) {
+  .sectPort .sectPort_contImg .sectPort_contImg_image {
+    width: 240px;
+    height: 240px;
+  }
+  .sectServ .sectServ_contCards {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .sectProy .sectPtoy_contCard {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .sectProy .sectPtoy_contCard .contCard_proy {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .sectProy .sectPtoy_contCard .contCard_proy .contCard_proy_image {
+    height: 75%;
+  }
+}
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+.sectServices {
+  padding: 5%;
+}
+.sectServices .sectServices_contText {
+  text-align: center;
+}
+.sectServices .sectServices_contText .sectServices_contText_text {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #555555;
+}
+.sectServices .sectServices_contText .sectServices_contText_title {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  color: #000000;
+}
+.sectServices .sectServices_contCard .contCard_serv {
+  border: solid 2px #000000;
+  border-radius: 20px;
+  padding: 5%;
+  text-align: center;
+  margin: 5%;
+}
+.sectServices .sectServices_contCard .contCard_serv .contCard_serv_title {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  color: #000000;
+}
+.sectServices .sectServices_contCard .contCard_serv .contCard_serv_contItem {
+  text-align: left;
+  padding: 5% 10%;
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+.sectServices .sectServices_contCard .contCard_serv .contCard_serv_contItem .contCard_serv_contItem_itemImg {
+  width: 30px;
+  height: 30px;
+}
+.sectServices .sectServices_contCard .contCard_serv .contCard_serv_contItem .contCard_serv_contItem_itemText {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #555555;
+}
+.sectServices .sectServices_contCard_2 .contCard_serv {
+  border: solid 2px #000000;
+  border-radius: 20px;
+  padding: 5%;
+  text-align: center;
+  margin: 5%;
+}
+.sectServices .sectServices_contCard_2 .contCard_serv .contCard_serv_title {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  color: #000000;
+}
+.sectServices .sectServices_contCard_2 .contCard_serv .contCard_serv_contItem {
+  text-align: left;
+  padding: 5% 10%;
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+.sectServices .sectServices_contCard_2 .contCard_serv .contCard_serv_contItem .contCard_serv_contItem_itemImg {
+  width: 30px;
+  height: 30px;
+}
+.sectServices .sectServices_contCard_2 .contCard_serv .contCard_serv_contItem .contCard_serv_contItem_itemText {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #555555;
+}
+.sectServices .sectServices_contCard_3 .contCard_serv {
+  border: solid 2px #000000;
+  border-radius: 20px;
+  padding: 5%;
+  text-align: center;
+  margin: 5%;
+}
+.sectServices .sectServices_contCard_3 .contCard_serv .contCard_serv_title {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  color: #000000;
+}
+.sectServices .sectServices_contCard_3 .contCard_serv .contCard_serv_contItem {
+  text-align: left;
+  padding: 5% 10%;
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+.sectServices .sectServices_contCard_3 .contCard_serv .contCard_serv_contItem .contCard_serv_contItem_itemImg {
+  width: 30px;
+  height: 30px;
+}
+.sectServices .sectServices_contCard_3 .contCard_serv .contCard_serv_contItem .contCard_serv_contItem_itemText {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #555555;
+}
+
+/*
+
+// Movil
+@media ( max-width: $querisMovil ) {}
+// Tablet
+@media (min-width: $querisMovil ) and (max-width: $querisDesktop ) {}
+// Desktop
+@media (min-width: $querisDesktop ) {}
+
+*/
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+@media (min-width: 1024px) {
+  .sectServices .sectServices_contText {
+    margin-bottom: 50px;
+  }
+  .sectServices .sectServices_contCard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin-bottom: 30px;
+  }
+  .sectServices .sectServices_contCard .contCard_serv {
+    width: 60%;
+    height: 87%;
+    margin: auto;
+    margin-top: 0px;
+  }
+  .sectServices .sectServices_contCard .contCard_serv .contCard_serv_title {
+    font-size: 30px;
+  }
+  .sectServices .sectServices_contCard .contCard_serv .contCard_serv_contItem_itemImg {
+    width: 40px;
+    height: 40px;
+  }
+  .sectServices .sectServices_contCard .contCard_serv .contCard_serv_contItem_itemText {
+    font-size: 20px;
+  }
+  .sectServices .sectServices_contCard_2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 30px;
+  }
+  .sectServices .sectServices_contCard_2 .contCard_serv {
+    width: 60%;
+    height: 87%;
+    margin: auto;
+    margin-top: 0px;
+  }
+  .sectServices .sectServices_contCard_2 .contCard_serv .contCard_serv_title {
+    font-size: 30px;
+  }
+  .sectServices .sectServices_contCard_2 .contCard_serv .contCard_serv_contItem_itemImg {
+    width: 40px;
+    height: 40px;
+  }
+  .sectServices .sectServices_contCard_2 .contCard_serv .contCard_serv_contItem_itemText {
+    font-size: 20px;
+  }
+  .sectServices .sectServices_contCard_3 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0% 23%;
+    margin-bottom: 30px;
+  }
+  .sectServices .sectServices_contCard_3 .contCard_serv {
+    width: 60%;
+    height: 87%;
+    margin: auto;
+    margin-top: 0px;
+  }
+  .sectServices .sectServices_contCard_3 .contCard_serv .contCard_serv_title {
+    font-size: 30px;
+  }
+  .sectServices .sectServices_contCard_3 .contCard_serv .contCard_serv_contItem_itemImg {
+    width: 40px;
+    height: 40px;
+  }
+  .sectServices .sectServices_contCard_3 .contCard_serv .contCard_serv_contItem_itemText {
+    font-size: 20px;
+  }
+}
+@media (min-width: 780px) and (max-width: 1024px) {
+  .sectServices .sectServices_contText {
+    margin-bottom: 50px;
+  }
+  .sectServices .sectServices_contCard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+  .sectServices .sectServices_contCard .contCard_serv {
+    width: 60%;
+    height: 87%;
+    margin: auto;
+    margin-top: 0px;
+  }
+  .sectServices .sectServices_contCard .contCard_serv .contCard_serv_title {
+    font-size: 30px;
+  }
+  .sectServices .sectServices_contCard .contCard_serv .contCard_serv_contItem_itemImg {
+    width: 40px;
+    height: 40px;
+  }
+  .sectServices .sectServices_contCard .contCard_serv .contCard_serv_contItem_itemText {
+    font-size: 20px;
+  }
+  .sectServices .sectServices_contCard .contCard_serv {
+    width: 85%;
+  }
+  .sectServices .sectServices_contCard_2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .sectServices .sectServices_contCard_2 .contCard_serv {
+    width: 60%;
+    height: 87%;
+    margin: auto;
+    margin-top: 0px;
+  }
+  .sectServices .sectServices_contCard_2 .contCard_serv .contCard_serv_title {
+    font-size: 30px;
+  }
+  .sectServices .sectServices_contCard_2 .contCard_serv .contCard_serv_contItem_itemImg {
+    width: 40px;
+    height: 40px;
+  }
+  .sectServices .sectServices_contCard_2 .contCard_serv .contCard_serv_contItem_itemText {
+    font-size: 20px;
+  }
+  .sectServices .sectServices_contCard_2 .contCard_serv {
+    width: 85%;
+  }
+  .sectServices .sectServices_contCard_3 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0% 23%;
+  }
+  .sectServices .sectServices_contCard_3 .contCard_serv {
+    width: 60%;
+    height: 87%;
+    margin: auto;
+    margin-top: 0px;
+  }
+  .sectServices .sectServices_contCard_3 .contCard_serv .contCard_serv_title {
+    font-size: 30px;
+  }
+  .sectServices .sectServices_contCard_3 .contCard_serv .contCard_serv_contItem_itemImg {
+    width: 40px;
+    height: 40px;
+  }
+  .sectServices .sectServices_contCard_3 .contCard_serv .contCard_serv_contItem_itemText {
+    font-size: 20px;
+  }
+  .sectServices .sectServices_contCard_3 .contCard_serv {
+    width: 85%;
+  }
+}
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+.sectProyect {
+  padding: 5%;
+}
+.sectProyect .sectProyect_cont {
+  text-align: center;
+}
+.sectProyect .sectProyect_cont .sectProyect_contText {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #555555;
+}
+.sectProyect .sectProyect_cont .sectProyect_contTitle {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  color: #000000;
+}
+.sectProyect .sectProyect_contCard .contCard_proy {
+  padding: 5%;
+  margin: 5%;
+  text-align: center;
+  border: solid 2px #000000;
+  border-radius: 20px;
+}
+.sectProyect .sectProyect_contCard .contCard_proy .contCard_proy_image {
+  width: 100%;
+  height: 100%;
+}
+.sectProyect .sectProyect_contCard .contCard_proy .contCard_proy_title {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: #000000;
+}
+.sectProyect .sectProyect_contCard .contCard_proy .contCard_proy_text {
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #555555;
+}
+.sectProyect .sectProyect_contCard .contCard_proy .btnPrin {
+  border: solid 2px #555555;
+  border-radius: 25px;
+  background-color: transparent;
+  color: #000000;
+  padding: 10px 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #555555;
+  margin: 5%;
+}
+.sectProyect .sectProyect_contCard .contCard_proy .btnPrin:hover {
+  background-color: #555555;
+  color: #F3F3F3;
+}
+
+/*
+
+// Movil
+@media ( max-width: $querisMovil ) {}
+// Tablet
+@media (min-width: $querisMovil ) and (max-width: $querisDesktop ) {}
+// Desktop
+@media (min-width: $querisDesktop ) {}
+
+*/
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+@media (min-width: 1024px) {
+  .sectProyect .sectProyect_cont {
+    margin-bottom: 50px;
+  }
+  .sectProyect .sectProyect_contCard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .sectProyect .sectProyect_contCard .contCard_proy {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .sectProyect .sectProyect_contCard .contCard_proy .contCard_proy_image {
+    height: 75%;
+  }
+}
+@media (min-width: 780px) and (max-width: 1024px) {
+  .sectProyect .sectProyect_cont {
+    margin-bottom: 50px;
+  }
+  .sectProyect .sectProyect_contCard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .sectProyect .sectProyect_contCard .contCard_proy {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .sectProyect .sectProyect_contCard .contCard_proy .contCard_proy_image {
+    height: 75%;
+  }
+}
+/*
+
+// Movil
+@media ( max-width: $querisMovil ) {}
+// Tablet
+@media (min-width: $querisMovil ) and (max-width: $querisDesktop ) {}
+// Desktop
+@media (min-width: $querisDesktop ) {}
+
+*/
+@media (min-width: 780px) and (max-width: 1024px) {
+  .contMenu .contMenu_nav {
+    top: 88%;
+  }
+  .contMenu .contMenu_nav .contMenu_navUL {
+    padding: 3% 0%;
+  }
+}
+@media (min-width: 1024px) {
+  .contMenu .contMenu_nav {
+    top: 88%;
+  }
+  .contMenu .contMenu_nav .contMenu_navUL {
+    padding: 2% 0%;
+  }
+}
+/*
+
+// Movil
+@media ( max-width: $querisMovil ) {}
+// Tablet
+@media (min-width: $querisMovil ) and (max-width: $querisDesktop ) {}
+// Desktop
+@media (min-width: $querisDesktop ) {}
+
+*/
+@media (min-width: 1024px) {
+  .cont_contPrin .cont_contPrin_contTitle {
+    padding: 0% 20%;
+  }
+  .cont_contPrin .cont_contPrin_contTitle .cont_contPrin_contTitle_title {
+    margin-bottom: 50px;
+  }
+  .contContactWindow {
+    width: 55%;
+    margin: 5% 18%;
+    padding: 5%;
+  }
+  .contContactWindow .contContactWindow_container {
+    width: 63%;
+    margin: auto;
+  }
+}
+@media (min-width: 780px) and (max-width: 1024px) {
+  .cont_contPrin .cont_contPrin_contTitle {
+    padding: 0% 20%;
+  }
+  .cont_contPrin .cont_contPrin_contTitle .cont_contPrin_contTitle_title {
+    margin-bottom: 50px;
+  }
+  .contContactWindow {
+    width: 55%;
+    margin: 5% 12%;
+  }
+}
+/*
+
+// Movil
+@media ( max-width: $querisMovil ) {}
+// Tablet
+@media (min-width: $querisMovil ) and (max-width: $querisDesktop ) {}
+// Desktop
+@media (min-width: $querisDesktop ) {}
+
+*/
+@media (min-width: 1024px) {
+  .contHeader {
+    padding: 2% 5%;
+  }
+}
+@media (min-width: 780px) and (max-width: 1024px) {
+  .contHeader {
+    padding: 2% 5%;
+  }
+}/*# sourceMappingURL=main.css.map */

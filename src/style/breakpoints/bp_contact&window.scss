@@ -1,0 +1,48 @@
+@import '../base/breakpoints_base.scss' ;
+
+
+// Breakpoint desktop
+@media (min-width: $querisDesktop ) {
+    // Contact
+    .cont_contPrin {
+        .cont_contPrin_contTitle {
+            padding: 0% 20% ;
+            .cont_contPrin_contTitle_title {
+                margin-bottom: 50px ;
+            }
+        }
+    }
+
+    // Contact Window
+    .contContactWindow {
+        width: 55% ;
+        margin: 5% 18% ;
+        padding: 5% ;
+        .contContactWindow_container {
+            width: 63% ;
+            margin: auto ;
+        }
+    }
+}
+
+
+// Breakpoint Tablet
+@media (min-width: $querisMovil ) and (max-width: $querisDesktop ) {
+    // Contact
+    .cont_contPrin {
+        .cont_contPrin_contTitle {
+            padding: 0% 20% ;
+            .cont_contPrin_contTitle_title {
+                margin-bottom: 50px ;
+            }
+        }
+    }
+
+    // Contact Window
+    .contContactWindow {
+        width: 55% ;
+        margin: 5% 12% ;
+        .contContactWindow_container {
+        }
+    }
+}

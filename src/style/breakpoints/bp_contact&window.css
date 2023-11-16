@@ -1,0 +1,39 @@
+/*
+
+// Movil
+@media ( max-width: $querisMovil ) {}
+// Tablet
+@media (min-width: $querisMovil ) and (max-width: $querisDesktop ) {}
+// Desktop
+@media (min-width: $querisDesktop ) {}
+
+*/
+@media (min-width: 1024px) {
+  .cont_contPrin .cont_contPrin_contTitle {
+    padding: 0% 20%;
+  }
+  .cont_contPrin .cont_contPrin_contTitle .cont_contPrin_contTitle_title {
+    margin-bottom: 50px;
+  }
+  .contContactWindow {
+    width: 55%;
+    margin: 5% 18%;
+    padding: 5%;
+  }
+  .contContactWindow .contContactWindow_container {
+    width: 63%;
+    margin: auto;
+  }
+}
+@media (min-width: 780px) and (max-width: 1024px) {
+  .cont_contPrin .cont_contPrin_contTitle {
+    padding: 0% 20%;
+  }
+  .cont_contPrin .cont_contPrin_contTitle .cont_contPrin_contTitle_title {
+    margin-bottom: 50px;
+  }
+  .contContactWindow {
+    width: 55%;
+    margin: 5% 12%;
+  }
+}/*# sourceMappingURL=bp_contact&window.css.map */

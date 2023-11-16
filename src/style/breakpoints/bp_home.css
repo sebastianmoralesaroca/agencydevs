@@ -1,0 +1,133 @@
+/*
+
+// Movil
+@media ( max-width: $querisMovil ) {}
+// Tablet
+@media (min-width: $querisMovil ) and (max-width: $querisDesktop ) {}
+// Desktop
+@media (min-width: $querisDesktop ) {}
+
+*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+@media (min-width: 1024px) {
+  .sectPort {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 60px;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin: 90px 0px 170px 0px;
+  }
+  .sectPort .sectPort_contImg {
+    text-align: end;
+  }
+  .sectPort .sectPort_contImg .sectPort_contImg_image {
+    width: 280px;
+    height: 280px;
+  }
+  .sectPort .sectPort_contPrin {
+    text-align: start;
+    margin: auto;
+    margin-left: 0px;
+  }
+  .sectAbout .sectAbout_contPrin {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .sectAbout .sectAbout_contPrin .sectAbout_contPrin_contImage .sectAbout_contImg_image {
+    width: 400px;
+    height: 400px;
+  }
+  .sectAbout .sectAbout_contPrin .sectAbout_contPrin_contCardText .sectAbout_contCards .cont_cardAbout {
+    padding: 10%;
+  }
+  .sectAbout .sectAbout_contPrin .sectAbout_contPrin_contCardText .sectAbout_contCards .img_cardAbout {
+    width: 30px;
+    height: 30px;
+  }
+  .sectAbout .sectAbout_contPrin .sectAbout_contPrin_contCardText .sectAbout_contCards .title_cardAbout {
+    font-size: 20px;
+  }
+  .sectAbout .sectAbout_contPrin .sectAbout_contPrin_contCardText .sectAbout_contCards .text_cardAbout {
+    font-size: 16px;
+  }
+  .sectAbout .sectAbout_contPrin .sectAbout_contPrin_contCardText .sectAbout_contText_text {
+    font-size: 17px;
+  }
+  .sectServ .sectServ_contCards {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .sectServ .sectServ_contCards .contCard_serv {
+    width: 60%;
+    height: 87%;
+    margin: auto;
+    margin-top: 0px;
+  }
+  .sectServ .sectServ_contCards .contCard_serv .contCard_serv_title {
+    font-size: 30px;
+  }
+  .sectServ .sectServ_contCards .contCard_serv .contCard_serv_contItem_itemImg {
+    width: 40px;
+    height: 40px;
+  }
+  .sectServ .sectServ_contCards .contCard_serv .contCard_serv_contItem_itemText {
+    font-size: 20px;
+  }
+  .sectProy .sectPtoy_contCard {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .sectProy .sectPtoy_contCard .contCard_proy {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .sectProy .sectPtoy_contCard .contCard_proy .contCard_proy_image {
+    height: 75%;
+  }
+}
+@media (min-width: 780px) and (max-width: 1024px) {
+  .sectPort .sectPort_contImg .sectPort_contImg_image {
+    width: 240px;
+    height: 240px;
+  }
+  .sectServ .sectServ_contCards {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .sectProy .sectPtoy_contCard {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .sectProy .sectPtoy_contCard .contCard_proy {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .sectProy .sectPtoy_contCard .contCard_proy .contCard_proy_image {
+    height: 75%;
+  }
+}/*# sourceMappingURL=bp_home.css.map */

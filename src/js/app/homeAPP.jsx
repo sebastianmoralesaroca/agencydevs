@@ -12,14 +12,18 @@ export const Home= ( props ) => {
         <>
         <section className='sectPort'>
             <div className='sectPort_contImg'>
-                <img className='sectPort_contImg_image' src={ ImagensHome.mePortada } alt="" style={{width:"100px"}} />
+                <img className='sectPort_contImg_image' src={ ImagensHome.mePortada } alt="" />
             </div>
-            <div className='sectPort_contText'>
+            <div className='sectPort_contPrin'>
                 <p className='sectPort_contTitle_subtitle'>{ TextHome.portada_subtitle }</p>
                 <h1 className='sectPort_contTitle_title'>{ TextHome.portada_title }</h1>
-            </div>
-            <div>
-                <button type="button" onClick={props.serv}>Servicios</button>
+                <div className='contServices'>
+                    <button className='button_services' type="button" onClick={props.serv}>Servicios</button>
+                </div>
+                <div className='contRRSS'>
+                    <button className='buton_RRSS' type="button"><img className='buton_RRSS_image' src={ImagensHome.instagram} alt=""/></button>
+                    <button className='buton_RRSS' type="button"><img className='buton_RRSS_image' src={ImagensHome.linkedin} alt=""/></button>
+                </div>
             </div>
         </section>
         <section className='sectAbout'>
@@ -27,15 +31,17 @@ export const Home= ( props ) => {
                 <p className='sectAbout_contTitle_subtitle'>{ TextHome.about_subtitle }</p>
                 <h2 className='sectAbout_contTitle_title'>{ TextHome.about_title }</h2>
             </div>
-            <div className='sectAbout_contImg'>
-                <img className='sectAbout_contImg_image' src={ ImagensHome.meAbout } alt="" style={{width:"100px"}} />
-            </div>
-            <div className='sectAbout_contCards'>
-                <CardAbout img={ ImagensHome.medal } title={ TextHome.about_card1_title } text={ TextHome.about_card1_text } />
-                <CardAbout img={ ImagensHome.movile } title={ TextHome.about_card2_title } text={ TextHome.about_card2_text } />
-            </div>
-            <div className='sectAbout_contText'>
-                <p className='sectAbout_contText_text'>{ TextHome.about_text }</p>
+            <div className='sectAbout_contPrin'>
+                <div className='sectAbout_contPrin_contImage'>
+                    <img className='sectAbout_contImg_image' src={ ImagensHome.meAbout } alt="" />
+                </div>
+                <div className='sectAbout_contPrin_contCardText'>
+                    <div className='sectAbout_contCards'>
+                        <CardAbout img={ ImagensHome.medal } title={ TextHome.about_card1_title } text={ TextHome.about_card1_text } />
+                        <CardAbout img={ ImagensHome.movile } title={ TextHome.about_card2_title } text={ TextHome.about_card2_text } />
+                    </div>
+                    <p className='sectAbout_contText_text'>{ TextHome.about_text }</p>
+                </div>
             </div>
         </section>
         <section className='sectServ'>
@@ -68,23 +74,28 @@ export const Home= ( props ) => {
             <div className='sectProy_contTitle'>
                 <p className='sectProy_contTitle_subtitle'>{ TextHome.proy_subtile }</p>
                 <h2 className='sectProy_contTitle_title'>{ TextHome.proy_title }</h2>
+            </div>
+            <div className='sectPtoy_contCard'>
                 <CardProy
-                    image={ ObjProject.project_1.image }
-                    title={ ObjProject.project_1.title }
-                    text={ ObjProject.project_1.text }
-                    link1={ ObjProject.project_1.link }
+                    image={ ObjProject.travel.image }
+                    title={ ObjProject.travel.title }
+                    text={ ObjProject.travel.text }
+                    link1={ ObjProject.travel.link }
+                    btn={ ObjProject.travel.btn }
                 />
                 <CardProy
-                    image={ ObjProject.project_2.image }
-                    title={ ObjProject.project_2.title }
-                    text={ ObjProject.project_2.text }
-                    link1={ ObjProject.project_2.link }
+                    image={ ObjProject.breadShop.image }
+                    title={ ObjProject.breadShop.title }
+                    text={ ObjProject.breadShop.text }
+                    link1={ ObjProject.breadShop.link }
+                    btn={ ObjProject.breadShop.btn }
                     />
                 <CardProy
-                    image={ ObjProject.project_3.image }
-                    title={ ObjProject.project_3.title }
-                    text={ ObjProject.project_3.text }
-                    link1={ ObjProject.project_3.link }
+                    image={ ObjProject.carLux.image }
+                    title={ ObjProject.carLux.title }
+                    text={ ObjProject.carLux.text }
+                    link1={ ObjProject.carLux.link }
+                    btn={ ObjProject.carLux.btn }
                 />
             </div>
         </section>

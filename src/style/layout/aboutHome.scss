@@ -1,0 +1,47 @@
+@import '../utils/textUti.scss' ;
+@import '../components/cardAbout.scss' ;
+
+
+.sectAbout {
+    padding: 0% 5% ;
+    text-align: center ;
+
+    .sectAbout_contTitle {
+
+        .sectAbout_contTitle_subtitle {
+            @include fontSubtitle ;
+        }
+
+        .sectAbout_contTitle_title {
+            @include fontTitle ;
+        }
+    }
+
+    .sectAbout_contPrin {
+
+        .sectAbout_contPrin_contImage {
+
+            .sectAbout_contImg_image {
+                width: 250px ;
+                height: 250px ;
+                border-radius: 20% ;
+            }
+        }
+
+        .sectAbout_contPrin_contCardText {
+
+            .sectAbout_contCards {
+                @include cardAbout ;
+                display: grid ;
+                grid-template-columns: repeat(2, 1fr);
+                grid-gap: 5% ;
+                margin: 25px 0px 40px 0px ;
+            }
+
+            .sectAbout_contText_text {
+                @include fontText ;
+                text-align: start ;
+            }
+        }
+    }
+}

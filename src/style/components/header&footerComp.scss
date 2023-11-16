@@ -1,0 +1,28 @@
+@import '../utils/textUti.scss' ;
+
+
+.contHeader {
+    width: 100% ;
+    padding: 7% 5% ;
+
+    .contSecondHeader {
+
+        .title_header {
+            @include fontHeader ;
+        }
+    }
+}
+
+.contFooter {
+    padding: 5% ;
+    background-color: $color_whiteLigth ;
+
+    .contSecondFooter {
+        text-align: center ;
+
+        .textFooter {
+            @include fontFooter ;
+        }
+
+    }
+}

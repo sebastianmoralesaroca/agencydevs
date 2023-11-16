@@ -1,0 +1,21 @@
+@import '../base/breakpoints_base.scss' ;
+
+
+// Breakpoints Desktop
+@media (min-width: $querisDesktop ) {
+    // Header
+    .contHeader {
+        padding: 2% 5% ;
+    }
+}
+
+
+
+// Breakpoints Tablet
+@media (min-width: $querisMovil ) and (max-width: $querisDesktop ) {
+    // Header
+    .contHeader {
+        padding: 2% 5% ;
+    }
+}
+

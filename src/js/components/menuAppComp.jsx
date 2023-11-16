@@ -52,23 +52,23 @@ export const MenuApp = () => {
                 <ul className='contMenu_navUL'>
                     <li className='contMenu_navUl_li'>
                         <button className='contMenu_navUl_li_btn' type="button" onClick={ ShowHome }>
-                            <img className='contMenu_navUl_li_image' src={ ImagensMenu.home } alt="" style={{width:"50px"}}/>
+                            <img className='contMenu_navUl_li_image' src={ ImagensMenu.home } alt=""/>
                         </button>
                     </li>
                     <li className='contMenu_navUl_li'>
                         <button className='contMenu_navUl_li_btn' type="button" onClick={ ShowServices }>
-                            <img className='contMenu_navUl_li_image' src={ ImagensMenu.services } alt="" style={{width:"50px"}}/>
+                            <img className='contMenu_navUl_li_image' src={ ImagensMenu.services } alt="" />
                         </button>
                     </li>
                     <li className='contMenu_navUl_li'>
                         <button className='contMenu_navUl_li_btn' type="button" onClick={ ShowProject }>
-                            <img className='contMenu_navUl_li_image' src={ ImagensMenu.proyect } alt="" style={{width:"50px"}}/>
+                            <img className='contMenu_navUl_li_image' src={ ImagensMenu.proyect } alt=""/>
                         </button>
                     </li>
                     <li className='contMenu_navUl_li'>
                         <button className='contMenu_navUl_li_btn' type="button"
                             onClick={ openWindow }>
-                            <img className='contMenu_navUl_li_image' src={ ImagensMenu.contact } alt="" style={{width:"50px"}}/>
+                            <img className='contMenu_navUl_li_image' src={ ImagensMenu.contact } alt="" />
                         </button>
                     </li>
                 </ul>

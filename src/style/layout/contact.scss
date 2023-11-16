@@ -1,0 +1,23 @@
+@import '../utils/textUti.scss' ;
+
+
+.cont_contPrin {
+    padding: 5% ;
+    margin: 30px 0px ;
+
+    .cont_contPrin_contTitle {
+        text-align: center ;
+
+        .cont_contPrin_contTitle_subtitle {
+            @include fontSubtitle ;
+        }
+
+        .cont_contPrin_contTitle_title {
+            @include fontTitle ;
+        }
+
+        .contContactWindow_contTitle_text {
+            @include fontText ;
+        }
+    }
+}

@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+.sectProy {
+  padding: 5%;
+  margin-top: 80px;
+}
+.sectProy .sectProy_contTitle {
+  text-align: center;
+}
+.sectProy .sectProy_contTitle .sectProy_contTitle_subtitle {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #555555;
+}
+.sectProy .sectProy_contTitle .sectProy_contTitle_title {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  color: #000000;
+}
+.sectProy .sectPtoy_contCard .contCard_proy {
+  padding: 5%;
+  margin: 5%;
+  text-align: center;
+  border: solid 2px #000000;
+  border-radius: 20px;
+}
+.sectProy .sectPtoy_contCard .contCard_proy .contCard_proy_image {
+  width: 100%;
+  height: 100%;
+}
+.sectProy .sectPtoy_contCard .contCard_proy .contCard_proy_title {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: #000000;
+}
+.sectProy .sectPtoy_contCard .contCard_proy .contCard_proy_text {
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #555555;
+}
+.sectProy .sectPtoy_contCard .contCard_proy .btnPrin {
+  border: solid 2px #555555;
+  border-radius: 25px;
+  background-color: transparent;
+  color: #000000;
+  padding: 10px 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #555555;
+  margin: 5%;
+}
+.sectProy .sectPtoy_contCard .contCard_proy .btnPrin:hover {
+  background-color: #555555;
+  color: #F3F3F3;
+}/*# sourceMappingURL=projectHome.css.map */

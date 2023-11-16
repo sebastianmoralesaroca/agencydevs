@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+.sectServices {
+  padding: 5%;
+}
+.sectServices .sectServices_contText {
+  text-align: center;
+}
+.sectServices .sectServices_contText .sectServices_contText_text {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #555555;
+}
+.sectServices .sectServices_contText .sectServices_contText_title {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  color: #000000;
+}
+.sectServices .sectServices_contCard .contCard_serv {
+  border: solid 2px #000000;
+  border-radius: 20px;
+  padding: 5%;
+  text-align: center;
+  margin: 5%;
+}
+.sectServices .sectServices_contCard .contCard_serv .contCard_serv_title {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  color: #000000;
+}
+.sectServices .sectServices_contCard .contCard_serv .contCard_serv_contItem {
+  text-align: left;
+  padding: 5% 10%;
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+.sectServices .sectServices_contCard .contCard_serv .contCard_serv_contItem .contCard_serv_contItem_itemImg {
+  width: 30px;
+  height: 30px;
+}
+.sectServices .sectServices_contCard .contCard_serv .contCard_serv_contItem .contCard_serv_contItem_itemText {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #555555;
+}
+.sectServices .sectServices_contCard_2 .contCard_serv {
+  border: solid 2px #000000;
+  border-radius: 20px;
+  padding: 5%;
+  text-align: center;
+  margin: 5%;
+}
+.sectServices .sectServices_contCard_2 .contCard_serv .contCard_serv_title {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  color: #000000;
+}
+.sectServices .sectServices_contCard_2 .contCard_serv .contCard_serv_contItem {
+  text-align: left;
+  padding: 5% 10%;
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+.sectServices .sectServices_contCard_2 .contCard_serv .contCard_serv_contItem .contCard_serv_contItem_itemImg {
+  width: 30px;
+  height: 30px;
+}
+.sectServices .sectServices_contCard_2 .contCard_serv .contCard_serv_contItem .contCard_serv_contItem_itemText {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #555555;
+}
+.sectServices .sectServices_contCard_3 .contCard_serv {
+  border: solid 2px #000000;
+  border-radius: 20px;
+  padding: 5%;
+  text-align: center;
+  margin: 5%;
+}
+.sectServices .sectServices_contCard_3 .contCard_serv .contCard_serv_title {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  color: #000000;
+}
+.sectServices .sectServices_contCard_3 .contCard_serv .contCard_serv_contItem {
+  text-align: left;
+  padding: 5% 10%;
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+.sectServices .sectServices_contCard_3 .contCard_serv .contCard_serv_contItem .contCard_serv_contItem_itemImg {
+  width: 30px;
+  height: 30px;
+}
+.sectServices .sectServices_contCard_3 .contCard_serv .contCard_serv_contItem .contCard_serv_contItem_itemText {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #555555;
+}
+
+/*
+
+// Movil
+@media ( max-width: $querisMovil ) {}
+// Tablet
+@media (min-width: $querisMovil ) and (max-width: $querisDesktop ) {}
+// Desktop
+@media (min-width: $querisDesktop ) {}
+
+*/
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+@media (min-width: 1024px) {
+  .sectServices .sectServices_contText {
+    margin-bottom: 50px;
+  }
+  .sectServices .sectServices_contCard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin-bottom: 30px;
+  }
+  .sectServices .sectServices_contCard .contCard_serv {
+    width: 60%;
+    height: 87%;
+    margin: auto;
+    margin-top: 0px;
+  }
+  .sectServices .sectServices_contCard .contCard_serv .contCard_serv_title {
+    font-size: 30px;
+  }
+  .sectServices .sectServices_contCard .contCard_serv .contCard_serv_contItem_itemImg {
+    width: 40px;
+    height: 40px;
+  }
+  .sectServices .sectServices_contCard .contCard_serv .contCard_serv_contItem_itemText {
+    font-size: 20px;
+  }
+  .sectServices .sectServices_contCard_2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 30px;
+  }
+  .sectServices .sectServices_contCard_2 .contCard_serv {
+    width: 60%;
+    height: 87%;
+    margin: auto;
+    margin-top: 0px;
+  }
+  .sectServices .sectServices_contCard_2 .contCard_serv .contCard_serv_title {
+    font-size: 30px;
+  }
+  .sectServices .sectServices_contCard_2 .contCard_serv .contCard_serv_contItem_itemImg {
+    width: 40px;
+    height: 40px;
+  }
+  .sectServices .sectServices_contCard_2 .contCard_serv .contCard_serv_contItem_itemText {
+    font-size: 20px;
+  }
+  .sectServices .sectServices_contCard_3 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0% 23%;
+    margin-bottom: 30px;
+  }
+  .sectServices .sectServices_contCard_3 .contCard_serv {
+    width: 60%;
+    height: 87%;
+    margin: auto;
+    margin-top: 0px;
+  }
+  .sectServices .sectServices_contCard_3 .contCard_serv .contCard_serv_title {
+    font-size: 30px;
+  }
+  .sectServices .sectServices_contCard_3 .contCard_serv .contCard_serv_contItem_itemImg {
+    width: 40px;
+    height: 40px;
+  }
+  .sectServices .sectServices_contCard_3 .contCard_serv .contCard_serv_contItem_itemText {
+    font-size: 20px;
+  }
+}
+@media (min-width: 780px) and (max-width: 1024px) {
+  .sectServices .sectServices_contText {
+    margin-bottom: 50px;
+  }
+  .sectServices .sectServices_contCard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+  .sectServices .sectServices_contCard .contCard_serv {
+    width: 60%;
+    height: 87%;
+    margin: auto;
+    margin-top: 0px;
+  }
+  .sectServices .sectServices_contCard .contCard_serv .contCard_serv_title {
+    font-size: 30px;
+  }
+  .sectServices .sectServices_contCard .contCard_serv .contCard_serv_contItem_itemImg {
+    width: 40px;
+    height: 40px;
+  }
+  .sectServices .sectServices_contCard .contCard_serv .contCard_serv_contItem_itemText {
+    font-size: 20px;
+  }
+  .sectServices .sectServices_contCard .contCard_serv {
+    width: 85%;
+  }
+  .sectServices .sectServices_contCard_2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .sectServices .sectServices_contCard_2 .contCard_serv {
+    width: 60%;
+    height: 87%;
+    margin: auto;
+    margin-top: 0px;
+  }
+  .sectServices .sectServices_contCard_2 .contCard_serv .contCard_serv_title {
+    font-size: 30px;
+  }
+  .sectServices .sectServices_contCard_2 .contCard_serv .contCard_serv_contItem_itemImg {
+    width: 40px;
+    height: 40px;
+  }
+  .sectServices .sectServices_contCard_2 .contCard_serv .contCard_serv_contItem_itemText {
+    font-size: 20px;
+  }
+  .sectServices .sectServices_contCard_2 .contCard_serv {
+    width: 85%;
+  }
+  .sectServices .sectServices_contCard_3 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0% 23%;
+  }
+  .sectServices .sectServices_contCard_3 .contCard_serv {
+    width: 60%;
+    height: 87%;
+    margin: auto;
+    margin-top: 0px;
+  }
+  .sectServices .sectServices_contCard_3 .contCard_serv .contCard_serv_title {
+    font-size: 30px;
+  }
+  .sectServices .sectServices_contCard_3 .contCard_serv .contCard_serv_contItem_itemImg {
+    width: 40px;
+    height: 40px;
+  }
+  .sectServices .sectServices_contCard_3 .contCard_serv .contCard_serv_contItem_itemText {
+    font-size: 20px;
+  }
+  .sectServices .sectServices_contCard_3 .contCard_serv {
+    width: 85%;
+  }
+}/*# sourceMappingURL=services.css.map */

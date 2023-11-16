@@ -1,0 +1,20 @@
+/*
+
+// Movil
+@media ( max-width: $querisMovil ) {}
+// Tablet
+@media (min-width: $querisMovil ) and (max-width: $querisDesktop ) {}
+// Desktop
+@media (min-width: $querisDesktop ) {}
+
+*/
+@media (min-width: 1024px) {
+  .contHeader {
+    padding: 2% 5%;
+  }
+}
+@media (min-width: 780px) and (max-width: 1024px) {
+  .contHeader {
+    padding: 2% 5%;
+  }
+}/*# sourceMappingURL=bp_header&Footer.css.map */

@@ -1,0 +1,32 @@
+@import '../base/breakpoints_base.scss' ;
+@import '../components/cardProject.scss' ;
+
+
+// Breakpoints Desktop
+@media (min-width: $querisDesktop ) {
+    .sectProyect {
+        .sectProyect_cont {
+            margin-bottom: 50px ;
+        }
+        .sectProyect_contCard {
+            display: grid ;
+            grid-template-columns: repeat(3, 1fr);
+            @include cardProject_desktop //components
+        }
+    }
+}
+
+
+// Breakpoints Tablet
+@media (min-width: $querisMovil ) and (max-width: $querisDesktop ) {
+    .sectProyect {
+        .sectProyect_cont {
+            margin-bottom: 50px ;
+        }
+        .sectProyect_contCard {
+            display: grid ;
+            grid-template-columns: repeat(2, 1fr);
+            @include cardProject_desktop //components
+        }
+    }
+}

@@ -1,0 +1,53 @@
+@import '../base/colorBace.scss' ;
+@import '../utils/textUti.scss' ;
+
+//card services mobile
+@mixin cardServices {
+    .contCard_serv {
+        border: solid 2px $color_black ;
+        border-radius: 20px ;
+        padding: 5% ;
+        text-align: center ;
+        margin: 5% ;;
+
+        .contCard_serv_title {
+            @include fontTitleCardServices ;
+        }
+
+        .contCard_serv_contItem{
+            text-align: left ;
+            padding: 5% 10% ;
+            display: grid ;
+            grid-template-columns: 20% 80% ;
+
+            .contCard_serv_contItem_itemImg {
+                width: 30px ;
+                height: 30px ;
+            }
+
+            .contCard_serv_contItem_itemText {
+                @include fontTextCardServices ;
+            }
+        }
+    }
+}
+
+// card services desktop
+@mixin cardServices_desktop {
+    .contCard_serv {
+        width: 60% ;
+        height: 87% ;
+        margin: auto ;
+        margin-top: 0px ;
+        .contCard_serv_title {
+            font-size: 30px ;
+        }
+        .contCard_serv_contItem_itemImg {
+            width: 40px ;
+            height: 40px ;
+        }
+        .contCard_serv_contItem_itemText {
+            font-size: 20px ;
+        }
+    }
+}

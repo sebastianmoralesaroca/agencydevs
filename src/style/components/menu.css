@@ -1,0 +1,20 @@
+.contMenu .contMenu_nav {
+  position: fixed;
+  top: 69%;
+  width: 100%;
+}
+.contMenu .contMenu_nav .contMenu_navUL {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  background-color: #E6E6E6;
+  padding: 5% 0%;
+}
+.contMenu .contMenu_nav .contMenu_navUL .contMenu_navUl_li .contMenu_navUl_li_btn {
+  background: transparent;
+  border: none;
+}
+.contMenu .contMenu_nav .contMenu_navUL .contMenu_navUl_li .contMenu_navUl_li_btn .contMenu_navUl_li_image {
+  width: 25px;
+  height: 25px;
+}/*# sourceMappingURL=menu.css.map */

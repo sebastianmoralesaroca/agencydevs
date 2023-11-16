@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+.cont_contPrin {
+  padding: 5%;
+  margin: 30px 0px;
+}
+.cont_contPrin .cont_contPrin_contTitle {
+  text-align: center;
+}
+.cont_contPrin .cont_contPrin_contTitle .cont_contPrin_contTitle_subtitle {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #555555;
+}
+.cont_contPrin .cont_contPrin_contTitle .cont_contPrin_contTitle_title {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  color: #000000;
+}
+.cont_contPrin .cont_contPrin_contTitle .contContactWindow_contTitle_text {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #555555;
+}/*# sourceMappingURL=contact.css.map */

@@ -1,0 +1,27 @@
+@import '../utils/textUti.scss' ;
+@import '../components/cardProject.scss' ;
+
+
+.sectProyect {
+    padding: 5% ;
+
+    .sectProyect_cont {
+        text-align: center ;
+
+        .sectProyect_contText {
+            @include fontSubtitle ;
+        }
+
+        .sectProyect_contTitle {
+            @include fontTitle ;
+        }
+    }
+
+    .sectProyect_contCard {
+        @include cardProject ;
+    }
+}
+
+
+// Breakpoints
+@import '../breakpoints/bp_projects.scss' ;

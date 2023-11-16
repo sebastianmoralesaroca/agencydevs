@@ -1,0 +1,24 @@
+@import '../base/breakpoints_base.scss' ;
+
+// Tablet
+@media (min-width: $querisMovil ) and (max-width: $querisDesktop ) {
+    .contMenu {
+        .contMenu_nav {
+            top: 88% ;
+            .contMenu_navUL {
+                padding: 3% 0% ;
+            }
+        }
+    }
+}
+// Desktop
+@media (min-width: $querisDesktop ) {
+    .contMenu {
+        .contMenu_nav {
+            top: 88% ;
+            .contMenu_navUL {
+                padding: 2% 0% ;
+            }
+        }
+    }
+}
