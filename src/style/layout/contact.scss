@@ -1,23 +1,48 @@
 @import '../utils/textUti.scss' ;
+@import '../base/colorBace.scss' ;
 
 
-.cont_contPrin {
+.contact {
     padding: 5% ;
     margin: 30px 0px ;
 
-    .cont_contPrin_contTitle {
+    .contact_contText {
         text-align: center ;
 
-        .cont_contPrin_contTitle_subtitle {
+        .contact_contText_subtitle {
             @include fontSubtitle ;
         }
 
-        .cont_contPrin_contTitle_title {
+        .contact_contText_title {
             @include fontTitle ;
         }
 
-        .contContactWindow_contTitle_text {
+        .contact_contText_text {
             @include fontText ;
+        }
+    }
+
+    .contact_contBTN {
+        display: flex ;
+        justify-content: center ;
+        margin-top: 25px ;
+
+        .contact_contBTN_btn {
+            padding: 15px 25% ;
+            border: solid 2px $color_black ;
+            border-radius: 10px ;
+
+            .contact_conBTN_A {
+                @include fontSubtitle ;
+                font-size: 22px ;
+
+                .contact_contBTN_img {
+                    width: 30px ;
+                    height: 30px ;
+                    vertical-align: middle ;
+                    margin-right: 10px ;
+                }
+            }
         }
     }
 }

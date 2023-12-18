@@ -21,11 +21,19 @@ export const ContactWindow = () => {
 
 export const Contact = () => {
     return (
-        <div className='cont_contPrin'>
-            <div className='cont_contPrin_contTitle'>
-                <p className='cont_contPrin_contTitle_subtitle'>{ TextContact.subtitle }</p>
-                <h2 className='cont_contPrin_contTitle_title'>{ TextContact.title }</h2>
-                <p className='contContactWindow_contTitle_text'>{ TextContact.contact_text }</p>
+        <div className='contact'>
+            <div className='contact_contText'>
+                <p className='contact_contText_subtitle'>{ TextContact.subtitle }</p>
+                <h2 className='contact_contText_title'>{ TextContact.title }</h2>
+                <p className='contact_contText_text'>{ TextContact.contact_text }</p>
+            </div>
+            <div className='contact_contBTN'>
+                <button className='contact_contBTN_btn' type="button">
+                    <a className='contact_conBTN_A' href="https://www.instagram.com/seba.devs/">
+                        <img className='contact_contBTN_img' src={ ImagensHome.instagram } alt=""/>
+                        @sebadevs
+                    </a>
+                </button>
             </div>
         </div>
     )

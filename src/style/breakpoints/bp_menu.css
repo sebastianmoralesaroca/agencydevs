@@ -10,16 +10,13 @@
 */
 @media (min-width: 780px) and (max-width: 1024px) {
   .contMenu .contMenu_nav {
-    top: 88%;
+    top: 90%;
   }
   .contMenu .contMenu_nav .contMenu_navUL {
     padding: 3% 0%;
   }
 }
 @media (min-width: 1024px) {
-  .contMenu .contMenu_nav {
-    top: 88%;
-  }
   .contMenu .contMenu_nav .contMenu_navUL {
     padding: 2% 0%;
   }

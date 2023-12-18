@@ -41,7 +41,7 @@
 */
 .contMenu .contMenu_nav {
   position: fixed;
-  top: 69%;
+  top: 93%;
   width: 100%;
 }
 .contMenu .contMenu_nav .contMenu_navUL {
@@ -78,6 +78,7 @@ font-family: 'Roboto', sans-serif;
 .contFooter {
   padding: 5%;
   background-color: #E6E6E6;
+  margin-bottom: 60px;
 }
 .contFooter .contSecondFooter {
   text-align: center;
@@ -93,30 +94,53 @@ font-family: 'Roboto', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;
 */
-.cont_contPrin {
+.contact {
   padding: 5%;
   margin: 30px 0px;
 }
-.cont_contPrin .cont_contPrin_contTitle {
+.contact .contact_contText {
   text-align: center;
 }
-.cont_contPrin .cont_contPrin_contTitle .cont_contPrin_contTitle_subtitle {
+.contact .contact_contText .contact_contText_subtitle {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 400;
   color: #555555;
 }
-.cont_contPrin .cont_contPrin_contTitle .cont_contPrin_contTitle_title {
+.contact .contact_contText .contact_contText_title {
   font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-weight: 600;
   color: #000000;
 }
-.cont_contPrin .cont_contPrin_contTitle .contContactWindow_contTitle_text {
+.contact .contact_contText .contact_contText_text {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: #555555;
+}
+.contact .contact_contBTN {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+.contact .contact_contBTN .contact_contBTN_btn {
+  padding: 15px 25%;
+  border: solid 2px #000000;
+  border-radius: 10px;
+}
+.contact .contact_contBTN .contact_contBTN_btn .contact_conBTN_A {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #555555;
+  font-size: 22px;
+}
+.contact .contact_contBTN .contact_contBTN_btn .contact_conBTN_A .contact_contBTN_img {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  margin-right: 10px;
 }
 
 /*
@@ -979,16 +1003,13 @@ font-family: 'Roboto', sans-serif;
 */
 @media (min-width: 780px) and (max-width: 1024px) {
   .contMenu .contMenu_nav {
-    top: 88%;
+    top: 90%;
   }
   .contMenu .contMenu_nav .contMenu_navUL {
     padding: 3% 0%;
   }
 }
 @media (min-width: 1024px) {
-  .contMenu .contMenu_nav {
-    top: 88%;
-  }
   .contMenu .contMenu_nav .contMenu_navUL {
     padding: 2% 0%;
   }
@@ -1050,5 +1071,8 @@ font-family: 'Roboto', sans-serif;
 @media (min-width: 780px) and (max-width: 1024px) {
   .contHeader {
     padding: 2% 5%;
+  }
+  .contSecondFooter {
+    margin-bottom: 80px;
   }
 }/*# sourceMappingURL=main.css.map */

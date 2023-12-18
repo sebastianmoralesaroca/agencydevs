@@ -22,7 +22,7 @@ export const TextHeaderFooter = {
 export const TextContact = {
   subtitle: "Sin span, publicidad o llamadas",
   title: "Contacto",
-  contact_text: "¡Hola! ¿Tienes alguna pregunta o consulta? ¡Estoy aquí para ayudarte! Haz clic en el botón de WhatsApp para chatear directamente y resolver cualquier duda que tengas.",
+  contact_text: "¡Hola! ¿Tienes alguna pregunta o consulta? ¡Estoy aquí para ayudarte! Haz clic en el botón de Instagram para chatear directamente y resolver cualquier duda que tengas.",
   input: "Enviar WhatsApp",
   btn_submit: "ENVIAR",
   contactWindow_text: "Introduce tus Datos",

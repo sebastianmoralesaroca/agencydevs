@@ -302,6 +302,7 @@ font-family: 'Roboto', sans-serif;
     grid-gap: 60px;
     padding-left: 20%;
     padding-right: 20%;
+    margin: 90px 0px 170px 0px;
   }
   .sectPort .sectPort_contImg {
     text-align: end;

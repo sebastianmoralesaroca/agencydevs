@@ -1,8 +1,5 @@
 import { TextHeaderFooter } from "../assets/textsASS" ;
 
-
-
-
 // sectioin header
 export const Header = () => {
     return (

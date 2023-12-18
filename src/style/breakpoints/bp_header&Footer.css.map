@@ -1,1 +1,1 @@
-{"version":3,"sources":["../base/breakpoints_base.scss","bp_header&Footer.scss","bp_header&Footer.css"],"names":[],"mappings":"AAIA;;;;;;;;;CAAA;ACAA;EAEI;IACI,cAAA;ECMN;AACF;ADAA;EAEI;IACI,cAAA;ECCN;AACF","file":"bp_header&Footer.css"}
+{"version":3,"sources":["../base/breakpoints_base.scss","bp_header&Footer.scss","bp_header&Footer.css"],"names":[],"mappings":"AAIA;;;;;;;;;CAAA;ACAA;EAEI;IACI,cAAA;ECMN;AACF;ADEA;EAEI;IACI,cAAA;ECDN;EDIE;IACA,mBAAA;ECFF;AACF","file":"bp_header&Footer.css"}
