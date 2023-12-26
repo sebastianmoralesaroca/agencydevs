@@ -56,14 +56,19 @@ font-family: 'Roboto', sans-serif;
   background-color: transparent;
   color: #000000;
   padding: 10px 20px;
+  width: 150px;
+}
+.sectPort .sectPort_contPrin .contServices .button_services a {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: #555555;
-  width: 150px;
 }
 .sectPort .sectPort_contPrin .contServices .button_services:hover {
   background-color: #555555;
+  color: #F3F3F3;
+}
+.sectPort .sectPort_contPrin .contServices .button_services:hover a {
   color: #F3F3F3;
 }
 .sectPort .sectPort_contPrin .contRRSS {
@@ -258,14 +263,19 @@ font-family: 'Roboto', sans-serif;
   background-color: transparent;
   color: #000000;
   padding: 10px 20px;
+  margin: 5%;
+}
+.sectProy .sectPtoy_contCard .contCard_proy .btnPrin a {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: #555555;
-  margin: 5%;
 }
 .sectProy .sectPtoy_contCard .contCard_proy .btnPrin:hover {
   background-color: #555555;
+  color: #F3F3F3;
+}
+.sectProy .sectPtoy_contCard .contCard_proy .btnPrin:hover a {
   color: #F3F3F3;
 }
 

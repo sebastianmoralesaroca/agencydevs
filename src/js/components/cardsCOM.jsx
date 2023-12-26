@@ -43,7 +43,7 @@ export const CardProy = (props) => {
             <img className='contCard_proy_image' src={ props.image } alt="" />
             <h3 className='contCard_proy_title'>{ props.title }</h3>
             <p className='contCard_proy_text'>{props.text}</p>
-            <button className='btnPrin' type="button">{props.btn}<a href={props.link}></a></button>
+            <button className='btnPrin' type="button"><a href={props.link}>{props.btn}</a></button>
         </div>
     )
 }

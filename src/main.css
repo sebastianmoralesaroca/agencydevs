@@ -68,11 +68,25 @@ font-family: 'Roboto', sans-serif;
   width: 100%;
   padding: 7% 5%;
 }
+.contHeader .contSecondHeader {
+  display: flex;
+  justify-content: space-between;
+}
 .contHeader .contSecondHeader .title_header {
   font-family: "Poppins", sans-serif;
   font-size: 25px;
   font-weight: 500;
-  color: #000000;
+}
+.contHeader .contSecondHeader .btn_darkmode {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: transparent;
+  border: solid 2px #555555;
+}
+.contHeader .contSecondHeader .btn_darkmode .img_darkmode {
+  width: 30px;
+  height: 30px;
 }
 
 .contFooter {
@@ -87,7 +101,6 @@ font-family: 'Roboto', sans-serif;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 400;
-  color: #555555;
 }
 
 /*
@@ -105,19 +118,16 @@ font-family: 'Roboto', sans-serif;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 400;
-  color: #555555;
 }
 .contact .contact_contText .contact_contText_title {
   font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-weight: 600;
-  color: #000000;
 }
 .contact .contact_contText .contact_contText_text {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  color: #555555;
 }
 .contact .contact_contBTN {
   display: flex;
@@ -125,7 +135,7 @@ font-family: 'Roboto', sans-serif;
   margin-top: 25px;
 }
 .contact .contact_contBTN .contact_contBTN_btn {
-  padding: 15px 25%;
+  padding: 15px 10%;
   border: solid 2px #000000;
   border-radius: 10px;
 }
@@ -133,7 +143,6 @@ font-family: 'Roboto', sans-serif;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 400;
-  color: #555555;
   font-size: 22px;
 }
 .contact .contact_contBTN .contact_contBTN_btn .contact_conBTN_A .contact_contBTN_img {
@@ -180,14 +189,12 @@ font-family: 'Roboto', sans-serif;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 400;
-  color: #555555;
   margin-bottom: 5px;
 }
 .contContactWindow .contContactWindow_container .contInput_input {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  color: #555555;
   border: solid 2px #000000;
   border-radius: 8px;
   padding: 4%;
@@ -199,14 +206,18 @@ font-family: 'Roboto', sans-serif;
   background-color: transparent;
   color: #000000;
   padding: 10px 20px;
+  margin-top: 5px;
+}
+.contContactWindow .contContactWindow_container .contInput_button a {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  color: #555555;
-  margin-top: 5px;
 }
 .contContactWindow .contContactWindow_container .contInput_button:hover {
   background-color: #555555;
+  color: #F3F3F3;
+}
+.contContactWindow .contContactWindow_container .contInput_button:hover a {
   color: #F3F3F3;
 }
 
@@ -238,13 +249,11 @@ font-family: 'Roboto', sans-serif;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 400;
-  color: #555555;
 }
 .sectPort .sectPort_contPrin .sectPort_contTitle_title {
   font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-weight: 600;
-  color: #000000;
 }
 .sectPort .sectPort_contPrin .contServices {
   padding: 2%;
@@ -255,14 +264,18 @@ font-family: 'Roboto', sans-serif;
   background-color: transparent;
   color: #000000;
   padding: 10px 20px;
+  width: 150px;
+}
+.sectPort .sectPort_contPrin .contServices .button_services a {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  color: #555555;
-  width: 150px;
 }
 .sectPort .sectPort_contPrin .contServices .button_services:hover {
   background-color: #555555;
+  color: #F3F3F3;
+}
+.sectPort .sectPort_contPrin .contServices .button_services:hover a {
   color: #F3F3F3;
 }
 .sectPort .sectPort_contPrin .contRRSS {
@@ -294,13 +307,11 @@ font-family: 'Roboto', sans-serif;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 400;
-  color: #555555;
 }
 .sectAbout .sectAbout_contTitle .sectAbout_contTitle_title {
   font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-weight: 600;
-  color: #000000;
 }
 .sectAbout .sectAbout_contPrin .sectAbout_contPrin_contImage .sectAbout_contImg_image {
   width: 250px;
@@ -314,7 +325,7 @@ font-family: 'Roboto', sans-serif;
   margin: 25px 0px 40px 0px;
 }
 .sectAbout .sectAbout_contPrin .sectAbout_contPrin_contCardText .sectAbout_contCards .cont_cardAbout {
-  border: solid 2px #000000;
+  border: solid 2px;
   padding: 5%;
   border-radius: 20px;
 }
@@ -326,19 +337,16 @@ font-family: 'Roboto', sans-serif;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  color: #000000;
 }
 .sectAbout .sectAbout_contPrin .sectAbout_contPrin_contCardText .sectAbout_contCards .text_cardAbout {
   font-family: "Roboto", sans-serif;
   font-size: 13px;
   font-weight: 400;
-  color: #555555;
 }
 .sectAbout .sectAbout_contPrin .sectAbout_contPrin_contCardText .sectAbout_contText_text {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  color: #555555;
   text-align: start;
 }
 
@@ -359,13 +367,11 @@ font-family: 'Roboto', sans-serif;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 400;
-  color: #555555;
 }
 .sectServ .sectServ_contTitle .sectServ_contTitle_title {
   font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-weight: 600;
-  color: #000000;
 }
 .sectServ .sectServ_contCards .contCard_serv {
   border: solid 2px #000000;
@@ -378,7 +384,6 @@ font-family: 'Roboto', sans-serif;
   font-family: "Roboto", sans-serif;
   font-size: 22px;
   font-weight: 500;
-  color: #000000;
 }
 .sectServ .sectServ_contCards .contCard_serv .contCard_serv_contItem {
   text-align: left;
@@ -394,7 +399,6 @@ font-family: 'Roboto', sans-serif;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 400;
-  color: #555555;
 }
 
 /*
@@ -420,13 +424,11 @@ font-family: 'Roboto', sans-serif;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 400;
-  color: #555555;
 }
 .sectProy .sectProy_contTitle .sectProy_contTitle_title {
   font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-weight: 600;
-  color: #000000;
 }
 .sectProy .sectPtoy_contCard .contCard_proy {
   padding: 5%;
@@ -443,13 +445,11 @@ font-family: 'Roboto', sans-serif;
   font-family: "Poppins", sans-serif;
   font-size: 24px;
   font-weight: 500;
-  color: #000000;
 }
 .sectProy .sectPtoy_contCard .contCard_proy .contCard_proy_text {
   font-family: "Roboto", sans-serif;
   font-size: 13px;
   font-weight: 400;
-  color: #555555;
 }
 .sectProy .sectPtoy_contCard .contCard_proy .btnPrin {
   border: solid 2px #555555;
@@ -457,14 +457,18 @@ font-family: 'Roboto', sans-serif;
   background-color: transparent;
   color: #000000;
   padding: 10px 20px;
+  margin: 5%;
+}
+.sectProy .sectPtoy_contCard .contCard_proy .btnPrin a {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  color: #555555;
-  margin: 5%;
 }
 .sectProy .sectPtoy_contCard .contCard_proy .btnPrin:hover {
   background-color: #555555;
+  color: #F3F3F3;
+}
+.sectProy .sectPtoy_contCard .contCard_proy .btnPrin:hover a {
   color: #F3F3F3;
 }
 
@@ -615,13 +619,11 @@ font-family: 'Roboto', sans-serif;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 400;
-  color: #555555;
 }
 .sectServices .sectServices_contText .sectServices_contText_title {
   font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-weight: 600;
-  color: #000000;
 }
 .sectServices .sectServices_contCard .contCard_serv {
   border: solid 2px #000000;
@@ -634,7 +636,6 @@ font-family: 'Roboto', sans-serif;
   font-family: "Roboto", sans-serif;
   font-size: 22px;
   font-weight: 500;
-  color: #000000;
 }
 .sectServices .sectServices_contCard .contCard_serv .contCard_serv_contItem {
   text-align: left;
@@ -650,7 +651,6 @@ font-family: 'Roboto', sans-serif;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 400;
-  color: #555555;
 }
 .sectServices .sectServices_contCard_2 .contCard_serv {
   border: solid 2px #000000;
@@ -663,7 +663,6 @@ font-family: 'Roboto', sans-serif;
   font-family: "Roboto", sans-serif;
   font-size: 22px;
   font-weight: 500;
-  color: #000000;
 }
 .sectServices .sectServices_contCard_2 .contCard_serv .contCard_serv_contItem {
   text-align: left;
@@ -679,7 +678,6 @@ font-family: 'Roboto', sans-serif;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 400;
-  color: #555555;
 }
 .sectServices .sectServices_contCard_3 .contCard_serv {
   border: solid 2px #000000;
@@ -692,7 +690,6 @@ font-family: 'Roboto', sans-serif;
   font-family: "Roboto", sans-serif;
   font-size: 22px;
   font-weight: 500;
-  color: #000000;
 }
 .sectServices .sectServices_contCard_3 .contCard_serv .contCard_serv_contItem {
   text-align: left;
@@ -708,7 +705,6 @@ font-family: 'Roboto', sans-serif;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 400;
-  color: #555555;
 }
 
 /*
@@ -893,13 +889,11 @@ font-family: 'Roboto', sans-serif;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 400;
-  color: #555555;
 }
 .sectProyect .sectProyect_cont .sectProyect_contTitle {
   font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-weight: 600;
-  color: #000000;
 }
 .sectProyect .sectProyect_contCard .contCard_proy {
   padding: 5%;
@@ -916,13 +910,11 @@ font-family: 'Roboto', sans-serif;
   font-family: "Poppins", sans-serif;
   font-size: 24px;
   font-weight: 500;
-  color: #000000;
 }
 .sectProyect .sectProyect_contCard .contCard_proy .contCard_proy_text {
   font-family: "Roboto", sans-serif;
   font-size: 13px;
   font-weight: 400;
-  color: #555555;
 }
 .sectProyect .sectProyect_contCard .contCard_proy .btnPrin {
   border: solid 2px #555555;
@@ -930,14 +922,18 @@ font-family: 'Roboto', sans-serif;
   background-color: transparent;
   color: #000000;
   padding: 10px 20px;
+  margin: 5%;
+}
+.sectProyect .sectProyect_contCard .contCard_proy .btnPrin a {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  color: #555555;
-  margin: 5%;
 }
 .sectProyect .sectProyect_contCard .contCard_proy .btnPrin:hover {
   background-color: #555555;
+  color: #F3F3F3;
+}
+.sectProyect .sectProyect_contCard .contCard_proy .btnPrin:hover a {
   color: #F3F3F3;
 }
 
@@ -1003,13 +999,16 @@ font-family: 'Roboto', sans-serif;
 */
 @media (min-width: 780px) and (max-width: 1024px) {
   .contMenu .contMenu_nav {
-    top: 90%;
+    top: 92%;
   }
   .contMenu .contMenu_nav .contMenu_navUL {
     padding: 3% 0%;
   }
 }
 @media (min-width: 1024px) {
+  .contMenu .contMenu_nav {
+    top: 90%;
+  }
   .contMenu .contMenu_nav .contMenu_navUL {
     padding: 2% 0%;
   }
@@ -1066,13 +1065,33 @@ font-family: 'Roboto', sans-serif;
 @media (min-width: 1024px) {
   .contHeader {
     padding: 2% 5%;
+    width: 90%;
   }
 }
 @media (min-width: 780px) and (max-width: 1024px) {
   .contHeader {
     padding: 2% 5%;
   }
-  .contSecondFooter {
-    margin-bottom: 80px;
+  .contFooter {
+    margin-bottom: 70px;
   }
+}
+.darkBackground {
+  background-color: #00162d;
+}
+
+.darkTitle {
+  color: #00fdfd;
+}
+
+.darkText {
+  color: #7facac;
+}
+
+.darkCard {
+  background-color: #004047;
+}
+
+.borde {
+  border: solid 2px red;
 }/*# sourceMappingURL=main.css.map */

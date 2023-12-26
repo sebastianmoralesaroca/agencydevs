@@ -1,6 +1,6 @@
 export const TextHome = {
-  portada_subtitle: "Hola, te ayudo con",
-  portada_title: "Desarrollo & eCommerce",
+  portada_subtitle: "¡Hola! soy Programador y Desarollador de",
+  portada_title: "Aplicaciones Web & eCommerce",
   about_subtitle: "Conoce mas",
   about_title: "Sobre Mi",
   about_card1_title: "Experiencia",

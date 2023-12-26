@@ -56,13 +56,18 @@ font-family: 'Roboto', sans-serif;
   background-color: transparent;
   color: #000000;
   padding: 10px 20px;
+  margin-top: 5px;
+}
+.contContactWindow .contContactWindow_container .contInput_button a {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: #555555;
-  margin-top: 5px;
 }
 .contContactWindow .contContactWindow_container .contInput_button:hover {
   background-color: #555555;
+  color: #F3F3F3;
+}
+.contContactWindow .contContactWindow_container .contInput_button:hover a {
   color: #F3F3F3;
 }/*# sourceMappingURL=contactWindow.css.map */

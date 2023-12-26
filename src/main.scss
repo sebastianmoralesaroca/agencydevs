@@ -1,4 +1,4 @@
-// base
+ // base
 @import './style/base/colorBace.scss' ;
 @import './style/base/defectsBace.scss' ;
 @import './style/base/breakpoints_base.scss' ;
@@ -19,3 +19,6 @@
 @import './style/breakpoints/bp_menu.scss' ;
 @import './style/breakpoints/bp_contact&window.scss' ;
 @import './style/breakpoints/bp_header&Footer.scss' ;
+
+//darkmode
+@import './style/darkmode/darkmode.scss' ;

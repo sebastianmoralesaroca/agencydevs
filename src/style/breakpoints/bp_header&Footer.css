@@ -11,13 +11,14 @@
 @media (min-width: 1024px) {
   .contHeader {
     padding: 2% 5%;
+    width: 90%;
   }
 }
 @media (min-width: 780px) and (max-width: 1024px) {
   .contHeader {
     padding: 2% 5%;
   }
-  .contSecondFooter {
-    margin-bottom: 80px;
+  .contFooter {
+    margin-bottom: 70px;
   }
 }/*# sourceMappingURL=bp_header&Footer.css.map */

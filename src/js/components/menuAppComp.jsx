@@ -11,7 +11,6 @@ export const MenuApp = () => {
     const [ home, setHome ] = useState( true ) ;
     const [ services, setServices ] = useState( null ) ;
     const [ project, setProject ] = useState( null ) ;
-    const [ window, setWindow ] = useState( null ) ;
 
     const ShowHome = () => {
         setHome( true )
@@ -29,16 +28,6 @@ export const MenuApp = () => {
         setHome( false )
         setServices( false )
         setProject( true )
-    }
-
-    const openWindow = () => {
-        if (!window) {
-            setWindow( true )
-        } else if (window) {
-            setWindow( false )
-        } else {
-            setWindow( null )
-            }
     }
 
     const OpenServices = () => {
@@ -66,9 +55,10 @@ export const MenuApp = () => {
                         </button>
                     </li>
                     <li className='contMenu_navUl_li'>
-                        <button className='contMenu_navUl_li_btn' type="button"
-                            onClick={ openWindow }>
-                            <img className='contMenu_navUl_li_image' src={ ImagensMenu.contact } alt="" />
+                        <button className='contMenu_navUl_li_btn' type="button">
+                            <a href="https://www.instagram.com/seba.devs/">
+                                <img className='contMenu_navUl_li_image' src={ ImagensMenu.contact } alt="" />
+                            </a>
                         </button>
                     </li>
                 </ul>
@@ -76,8 +66,6 @@ export const MenuApp = () => {
             { home && ( <Home serv={ OpenServices } /> )}
             { services && ( <Services /> ) }
             { project && ( <Project /> ) }
-            { window && ( <ContactWindow />)}
-            { }
         </div>
     )
 }

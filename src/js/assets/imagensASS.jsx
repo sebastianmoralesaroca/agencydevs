@@ -1,4 +1,6 @@
 export const ImagensHome = {
+  sol: '../../public/icons/sol_icon.svg',
+  luna: '../../public/icons/luna_icon.svg',
   mePortada: '../../public/imagens/meImage.jpg',
   meAbout: '../../public/imagens/meaboutImage.jpg',
   medal: '../../public/icons/medalIcon.svg',
@@ -12,5 +14,5 @@ export const ImagensMenu = {
   home: '../../public/icons/homeIcon.svg',
   services: '../../public/icons/servicesIcon.svg',
   proyect: '../../public/icons/projectIcon.svg',
-  contact: '../../public/icons/contactIcon.svg',
+  contact: '../../public/icons/instagramIcon.svg',
 }

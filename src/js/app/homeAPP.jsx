@@ -5,7 +5,7 @@ import { ObjProject } from '../assets/projectASS' ;
 import { ObjServices } from '../assets/servicesASS';
 import { useState } from 'react';
 import { Services } from "./servicesAPP";
-
+import { darkmode } from "../utils/darkmode.js";
 
 export const Home= ( props ) => {
     return (
@@ -80,21 +80,21 @@ export const Home= ( props ) => {
                     image={ ObjProject.travel.image }
                     title={ ObjProject.travel.title }
                     text={ ObjProject.travel.text }
-                    link1={ ObjProject.travel.link }
-                    btn={ ObjProject.travel.btn }
+                    link={ ObjProject.travel.link }
+                    btn={ ObjProject.travel.btn}
                 />
                 <CardProy
                     image={ ObjProject.breadShop.image }
                     title={ ObjProject.breadShop.title }
                     text={ ObjProject.breadShop.text }
-                    link1={ ObjProject.breadShop.link }
+                    link={ ObjProject.breadShop.link }
                     btn={ ObjProject.breadShop.btn }
-                    />
+                />
                 <CardProy
                     image={ ObjProject.carLux.image }
                     title={ ObjProject.carLux.title }
                     text={ ObjProject.carLux.text }
-                    link1={ ObjProject.carLux.link }
+                    link={ ObjProject.carLux.link }
                     btn={ ObjProject.carLux.btn }
                 />
             </div>

@@ -33,25 +33,25 @@ export const Project = () => {
                     btn={ ObjProject.carLux.btn }
                 />
                 <CardProy
-                    image={ ObjProject.project_4.image }
-                    title={ ObjProject.project_4.title }
-                    text={ ObjProject.project_4.text }
-                    link={ ObjProject.project_4.link }
-                    btn={ ObjProject.project_4.btn }
+                    image={ ObjProject.arsenal.image }
+                    title={ ObjProject.arsenal.title }
+                    text={ ObjProject.arsenal.text }
+                    link={ ObjProject.arsenal.link }
+                    btn={ ObjProject.arsenal.btn }
                 />
                 <CardProy
-                    image={ ObjProject.project_5.image }
-                    title={ ObjProject.project_5.title }
-                    text={ ObjProject.project_5.text }
-                    link={ ObjProject.project_5.link }
-                    btn={ ObjProject.project_5.btn}
+                    image={ ObjProject.portalStudent.image }
+                    title={ ObjProject.portalStudent.title }
+                    text={ ObjProject.portalStudent.text }
+                    link={ ObjProject.portalStudent.link }
+                    btn={ ObjProject.portalStudent.btn}
                 />
                 <CardProy
-                    image={ ObjProject.instagram.image }
-                    title={ ObjProject.instagram.title }
-                    text={ ObjProject.instagram.text }
-                    link={ ObjProject.instagram.link }
-                    btn={ ObjProject.instagram.btn}
+                    image={ ObjProject.loginSpotify.image }
+                    title={ ObjProject.loginSpotify.title }
+                    text={ ObjProject.loginSpotify.text }
+                    link={ ObjProject.loginSpotify.link }
+                    btn={ ObjProject.loginSpotify.btn}
                 />
             </div>
         </section>

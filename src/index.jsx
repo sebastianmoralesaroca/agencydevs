@@ -6,8 +6,6 @@ import { Contact } from './js/components/contactCOM' ;
 import { MenuApp } from './js/components/menuAppComp' ;
 
 
-import { Prueba } from "./js/prueba";
-
 ReactDOM.createRoot(document.getElementById("root")).render(
   <>
     <header className='contHeader'>
