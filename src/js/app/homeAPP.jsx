@@ -5,9 +5,10 @@ import { ObjProject } from '../assets/projectASS' ;
 import { ObjServices } from '../assets/servicesASS';
 import { useState } from 'react';
 import { Services } from "./servicesAPP";
-import { darkmode } from "../utils/darkmode.js";
+import { MenuApp } from "../components/menuAppComp";
 
 export const Home= ( props ) => {
+
     return (
         <>
         <section className='sectPort'>
@@ -18,7 +19,7 @@ export const Home= ( props ) => {
                 <p className='sectPort_contTitle_subtitle'>{ TextHome.portada_subtitle }</p>
                 <h1 className='sectPort_contTitle_title'>{ TextHome.portada_title }</h1>
                 <div className='contServices'>
-                    <button className='button_services' type="button" onClick={props.serv}>Servicios</button>
+                    <button className='button_services' type="button"><a href='#homeServ'>Servicios</a></button>
                 </div>
                 <div className='contRRSS'>
                     <button className='buton_RRSS' type="button"><img className='buton_RRSS_image' src={ImagensHome.instagram} alt=""/></button>
@@ -44,7 +45,7 @@ export const Home= ( props ) => {
                 </div>
             </div>
         </section>
-        <section className='sectServ'>
+        <section className='sectServ' id='homeServ'>
             <div className='sectServ_contTitle'>
                 <p className='sectServ_contTitle_subtitle'>{ TextHome.serv_subtitle }</p>
                 <h2 className='sectServ_contTitle_title'>{ TextHome.serv_title }</h2>

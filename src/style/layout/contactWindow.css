@@ -37,21 +37,19 @@ font-family: 'Roboto', sans-serif;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 400;
-  color: #555555;
   margin-bottom: 5px;
 }
 .contContactWindow .contContactWindow_container .contInput_input {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  color: #555555;
   border: solid 2px #000000;
   border-radius: 8px;
   padding: 4%;
   margin: 5px 0px;
 }
 .contContactWindow .contContactWindow_container .contInput_button {
-  border: solid 2px #555555;
+  border: solid 2px #000000;
   border-radius: 25px;
   background-color: transparent;
   color: #000000;
@@ -62,7 +60,6 @@ font-family: 'Roboto', sans-serif;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  color: #555555;
 }
 .contContactWindow .contContactWindow_container .contInput_button:hover {
   background-color: #555555;

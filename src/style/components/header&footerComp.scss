@@ -2,7 +2,7 @@
 
 
 .contHeader {
-    width: 100% ;
+    width: 90% ;
     padding: 7% 5% ;
 
     .contSecondHeader {
@@ -17,11 +17,15 @@
             height: 50px ;
             border-radius: 50% ;
             background: transparent ;
-            border: solid 2px $color_blackLigth ;
+            border: 0px ;
+            box-shadow: 0px 0px 19px 7px rgba(0, 0, 0, 0.2);
             .img_darkmode {
                 width: 30px ;
                 height: 30px ;
             }
+        .btn_darkmode.dark {
+            box-shadow: 0px 0px 23px 10px rgba(0, 0, 0, 0.3);
+        }
         }
     }
 }

@@ -16,13 +16,11 @@ font-family: 'Roboto', sans-serif;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 400;
-  color: #555555;
 }
 .sectAbout .sectAbout_contTitle .sectAbout_contTitle_title {
   font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-weight: 600;
-  color: #000000;
 }
 .sectAbout .sectAbout_contPrin .sectAbout_contPrin_contImage .sectAbout_contImg_image {
   width: 250px;
@@ -36,7 +34,7 @@ font-family: 'Roboto', sans-serif;
   margin: 25px 0px 40px 0px;
 }
 .sectAbout .sectAbout_contPrin .sectAbout_contPrin_contCardText .sectAbout_contCards .cont_cardAbout {
-  border: solid 2px #000000;
+  border: solid 2px;
   padding: 5%;
   border-radius: 20px;
 }
@@ -48,18 +46,15 @@ font-family: 'Roboto', sans-serif;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  color: #000000;
 }
 .sectAbout .sectAbout_contPrin .sectAbout_contPrin_contCardText .sectAbout_contCards .text_cardAbout {
   font-family: "Roboto", sans-serif;
   font-size: 13px;
   font-weight: 400;
-  color: #555555;
 }
 .sectAbout .sectAbout_contPrin .sectAbout_contPrin_contCardText .sectAbout_contText_text {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  color: #555555;
   text-align: start;
 }/*# sourceMappingURL=aboutHome.css.map */

@@ -19,13 +19,11 @@ font-family: 'Roboto', sans-serif;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 400;
-  color: #555555;
 }
 .sectServices .sectServices_contText .sectServices_contText_title {
   font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-weight: 600;
-  color: #000000;
 }
 .sectServices .sectServices_contCard .contCard_serv {
   border: solid 2px #000000;
@@ -38,7 +36,6 @@ font-family: 'Roboto', sans-serif;
   font-family: "Roboto", sans-serif;
   font-size: 22px;
   font-weight: 500;
-  color: #000000;
 }
 .sectServices .sectServices_contCard .contCard_serv .contCard_serv_contItem {
   text-align: left;
@@ -54,7 +51,6 @@ font-family: 'Roboto', sans-serif;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 400;
-  color: #555555;
 }
 .sectServices .sectServices_contCard_2 .contCard_serv {
   border: solid 2px #000000;
@@ -67,7 +63,6 @@ font-family: 'Roboto', sans-serif;
   font-family: "Roboto", sans-serif;
   font-size: 22px;
   font-weight: 500;
-  color: #000000;
 }
 .sectServices .sectServices_contCard_2 .contCard_serv .contCard_serv_contItem {
   text-align: left;
@@ -83,7 +78,6 @@ font-family: 'Roboto', sans-serif;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 400;
-  color: #555555;
 }
 .sectServices .sectServices_contCard_3 .contCard_serv {
   border: solid 2px #000000;
@@ -96,7 +90,6 @@ font-family: 'Roboto', sans-serif;
   font-family: "Roboto", sans-serif;
   font-size: 22px;
   font-weight: 500;
-  color: #000000;
 }
 .sectServices .sectServices_contCard_3 .contCard_serv .contCard_serv_contItem {
   text-align: left;
@@ -112,7 +105,6 @@ font-family: 'Roboto', sans-serif;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 400;
-  color: #555555;
 }
 
 /*

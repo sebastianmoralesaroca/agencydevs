@@ -5,35 +5,37 @@ import { Services } from "../app/servicesAPP";
 import { useState } from "react";
 import { Contact, ContactWindow } from "../components/contactCOM";
 
-
-
 export const MenuApp = () => {
     const [ home, setHome ] = useState( true ) ;
     const [ services, setServices ] = useState( null ) ;
     const [ project, setProject ] = useState( null ) ;
-
+    
     const ShowHome = () => {
         setHome( true )
         setServices( false )
         setProject( false )
+        window.scrollTo({ top: 0, left: 0 });
     }
-
+    
     const ShowServices = () => {
         setHome( false )
         setServices( true )
         setProject( false )
+        window.scrollTo({ top: 0, left: 0 });
     }
-
+    
     const ShowProject = () => {
         setHome( false )
         setServices( false )
         setProject( true )
+        window.scrollTo({ top: 0, left: 0 });
     }
-
+    
     const OpenServices = () => {
         setHome(null)
         setServices(true)
-    }
+        window.scrollTo({ top: 0, left: 0 });
+    }   
 
     return (
         <div className='contMenu'>

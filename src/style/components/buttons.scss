@@ -3,20 +3,14 @@
 
 
 @mixin buttonPrins {
-    border: solid 2px $color_blackLigth ;
+    border: solid 3px $color_black ;
     border-radius: 25px ;
     background-color: transparent ;
     color: $color_black ;
     padding: 10px 20px ;
     a {
         @include fontText ;
-    }
-    &:hover {
-        background-color: $color_blackLigth ;
-        color: $color_white ;
-        a {
-            color: $color_white ;
-        }
+        color: $color_black;
     }
 }
 

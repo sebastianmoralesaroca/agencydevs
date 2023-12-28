@@ -39,19 +39,17 @@ font-family: 'Roboto', sans-serif;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 400;
-  color: #555555;
 }
 .sectPort .sectPort_contPrin .sectPort_contTitle_title {
   font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-weight: 600;
-  color: #000000;
 }
 .sectPort .sectPort_contPrin .contServices {
   padding: 2%;
 }
 .sectPort .sectPort_contPrin .contServices .button_services {
-  border: solid 2px #555555;
+  border: solid 2px #000000;
   border-radius: 25px;
   background-color: transparent;
   color: #000000;
@@ -62,7 +60,6 @@ font-family: 'Roboto', sans-serif;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  color: #555555;
 }
 .sectPort .sectPort_contPrin .contServices .button_services:hover {
   background-color: #555555;
@@ -100,13 +97,11 @@ font-family: 'Roboto', sans-serif;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 400;
-  color: #555555;
 }
 .sectAbout .sectAbout_contTitle .sectAbout_contTitle_title {
   font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-weight: 600;
-  color: #000000;
 }
 .sectAbout .sectAbout_contPrin .sectAbout_contPrin_contImage .sectAbout_contImg_image {
   width: 250px;
@@ -120,7 +115,7 @@ font-family: 'Roboto', sans-serif;
   margin: 25px 0px 40px 0px;
 }
 .sectAbout .sectAbout_contPrin .sectAbout_contPrin_contCardText .sectAbout_contCards .cont_cardAbout {
-  border: solid 2px #000000;
+  border: solid 2px;
   padding: 5%;
   border-radius: 20px;
 }
@@ -132,19 +127,16 @@ font-family: 'Roboto', sans-serif;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  color: #000000;
 }
 .sectAbout .sectAbout_contPrin .sectAbout_contPrin_contCardText .sectAbout_contCards .text_cardAbout {
   font-family: "Roboto", sans-serif;
   font-size: 13px;
   font-weight: 400;
-  color: #555555;
 }
 .sectAbout .sectAbout_contPrin .sectAbout_contPrin_contCardText .sectAbout_contText_text {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  color: #555555;
   text-align: start;
 }
 
@@ -165,13 +157,11 @@ font-family: 'Roboto', sans-serif;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 400;
-  color: #555555;
 }
 .sectServ .sectServ_contTitle .sectServ_contTitle_title {
   font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-weight: 600;
-  color: #000000;
 }
 .sectServ .sectServ_contCards .contCard_serv {
   border: solid 2px #000000;
@@ -184,7 +174,6 @@ font-family: 'Roboto', sans-serif;
   font-family: "Roboto", sans-serif;
   font-size: 22px;
   font-weight: 500;
-  color: #000000;
 }
 .sectServ .sectServ_contCards .contCard_serv .contCard_serv_contItem {
   text-align: left;
@@ -200,7 +189,6 @@ font-family: 'Roboto', sans-serif;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 400;
-  color: #555555;
 }
 
 /*
@@ -226,13 +214,11 @@ font-family: 'Roboto', sans-serif;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 400;
-  color: #555555;
 }
 .sectProy .sectProy_contTitle .sectProy_contTitle_title {
   font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-weight: 600;
-  color: #000000;
 }
 .sectProy .sectPtoy_contCard .contCard_proy {
   padding: 5%;
@@ -244,21 +230,20 @@ font-family: 'Roboto', sans-serif;
 .sectProy .sectPtoy_contCard .contCard_proy .contCard_proy_image {
   width: 100%;
   height: 100%;
+  border-radius: 20px;
 }
 .sectProy .sectPtoy_contCard .contCard_proy .contCard_proy_title {
   font-family: "Poppins", sans-serif;
   font-size: 24px;
   font-weight: 500;
-  color: #000000;
 }
 .sectProy .sectPtoy_contCard .contCard_proy .contCard_proy_text {
   font-family: "Roboto", sans-serif;
   font-size: 13px;
   font-weight: 400;
-  color: #555555;
 }
 .sectProy .sectPtoy_contCard .contCard_proy .btnPrin {
-  border: solid 2px #555555;
+  border: solid 2px #000000;
   border-radius: 25px;
   background-color: transparent;
   color: #000000;
@@ -269,7 +254,6 @@ font-family: 'Roboto', sans-serif;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  color: #555555;
 }
 .sectProy .sectPtoy_contCard .contCard_proy .btnPrin:hover {
   background-color: #555555;

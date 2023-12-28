@@ -1,21 +1,11 @@
 //darkmode
-$darkmode_background: #00162d ;
+$darkmode_background: #005f5f ;
 $darkmode_title: #00fdfd ;
-$darkmode_text: #7facac ;
-$darkmode_card: #004047 ;
 
 .darkBackground {
     background-color: $darkmode_background ;
 }
 
-.darkTitle {
+.darkLogo {
     color: $darkmode_title ;
-}
-
-.darkText {
-    color: $darkmode_text;
-}
-
-.darkCard {
-        background-color: $darkmode_card ;
 }

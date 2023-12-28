@@ -38,7 +38,7 @@ font-family: 'Roboto', sans-serif;
   padding: 2%;
 }
 .sectPort .sectPort_contPrin .contServices .button_services {
-  border: solid 2px #555555;
+  border: solid 2px #000000;
   border-radius: 25px;
   background-color: transparent;
   color: #000000;

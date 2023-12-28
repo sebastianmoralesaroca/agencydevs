@@ -14,19 +14,16 @@ font-family: 'Roboto', sans-serif;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 400;
-  color: #555555;
 }
 .contact .contact_contText .contact_contText_title {
   font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-weight: 600;
-  color: #000000;
 }
 .contact .contact_contText .contact_contText_text {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  color: #555555;
 }
 .contact .contact_contBTN {
   display: flex;
@@ -42,7 +39,6 @@ font-family: 'Roboto', sans-serif;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 400;
-  color: #555555;
   font-size: 22px;
 }
 .contact .contact_contBTN .contact_contBTN_btn .contact_conBTN_A .contact_contBTN_img {
