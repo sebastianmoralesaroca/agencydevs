@@ -13,7 +13,7 @@ export const Home= ( props ) => {
         <>
         <section className='sectPort'>
             <div className='sectPort_contImg'>
-                <img className='sectPort_contImg_image' src='../../../public/imagens/meImage.jpg' alt="" />
+                <img className='sectPort_contImg_image' src='./public/imagens/meImage.jpg' alt="" />
             </div>
             <div className='sectPort_contPrin'>
                 <p className='sectPort_contTitle_subtitle'>{ TextHome.portada_subtitle }</p>
