@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { TextContact } from '../assets/textsASS' ;
-import { ImagensHome, ImagensMenu } from "../../../imagensASS";
+import { ImagensHome, ImagensMenu } from "../assets/imagensASS";
 
 
 

@@ -1,4 +1,4 @@
-import { ImagensMenu } from "../../../imagensASS";
+import { ImagensMenu } from "../assets/imagensASS";
 import { Home } from "../app/homeAPP";
 import { Project } from "../app/projectAPP";
 import { Services } from "../app/servicesAPP";
