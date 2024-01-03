@@ -22,7 +22,7 @@
         btn: "Ver Proyecto"
       }
       this.arsenal = {
-        image: './imagens/arsenal.png',
+        image: './imagens/arsenal.webp',
         title: "Arsenal Stadium",
         text: "HTML CSS SASS JAVASCRIPT",
         link: 'https://sebadevs-arsenalstadium.netlify.app/',
