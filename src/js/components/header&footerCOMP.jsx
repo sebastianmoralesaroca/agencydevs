@@ -1,5 +1,5 @@
 import { TextHeaderFooter } from "../assets/textsASS" ;
-import { ImagensHome } from '../assets/imagensASS' ;
+import { ImagensHome } from '../../../imagensASS' ;
 import { useState } from "react";
 
 

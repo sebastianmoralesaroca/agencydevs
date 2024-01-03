@@ -1,4 +1,4 @@
-import { ImagensHome } from '../assets/imagensASS';
+import { ImagensHome } from '../../../imagensASS';
 import { TextHome } from '../assets/textsASS';
 import { CardAbout, CardProy, CardServ,  } from '../components/cardsCOM' ;
 import { ObjProject } from '../assets/projectASS' ;
