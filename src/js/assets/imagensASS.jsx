@@ -5,14 +5,14 @@ export const ImagensHome = {
   meAbout: './imagens/meaboutImage.jpg',
   medal: './icons/medalIcon.svg',
   movile: './icons/phoneIcon.svg',
-  linkedin: '../../public/icons/linkedinIcon.svg',
-  instagram: '../../public/icons/instagramIcon.svg',
-  contactWin: '../../public/icons/whatsapp_icon.svg',
+  linkedin: './icons/linkedinIcon.svg',
+  instagram: './icons/instagramIcon.svg',
+  contactWin: './icons/whatsapp_icon.svg',
 };
 
 export const ImagensMenu = {
-  home: '../../public/icons/homeIcon.svg',
-  services: '../../public/icons/servicesIcon.svg',
-  proyect: '../../public/icons/projectIcon.svg',
-  contact: '../../public/icons/instagramIcon.svg',
+  home: './icons/homeIcon.svg',
+  services: './icons/servicesIcon.svg',
+  proyect: './icons/projectIcon.svg',
+  contact: './icons/instagramIcon.svg',
 }
