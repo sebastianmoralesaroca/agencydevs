@@ -1,4 +1,4 @@
-import { ImagensHome } from '../../../imagensASS';
+import { ImagensHome } from '../assets/imagensASS';
 import { TextHome } from '../assets/textsASS';
 import { CardAbout, CardProy, CardServ,  } from '../components/cardsCOM' ;
 import { ObjProject } from '../assets/projectASS' ;
@@ -13,7 +13,7 @@ export const Home= ( props ) => {
         <>
         <section className='sectPort'>
             <div className='sectPort_contImg'>
-                <img className='sectPort_contImg_image' src='./imagens/meImage.jpg' alt="" />
+                <img className='sectPort_contImg_image' src={ ImagensHome.mePortada } alt="" />
             </div>
             <div className='sectPort_contPrin'>
                 <p className='sectPort_contTitle_subtitle'>{ TextHome.portada_subtitle }</p>

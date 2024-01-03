@@ -1,8 +1,8 @@
 export const ImagensHome = {
   sol: './icons/sun_icon.svg',
   luna: './icons/moon_icon.png',
-  mePortada: '../../public/imagens/meImage.jpg',
-  meAbout: '../../public/imagens/meaboutImage.jpg',
+  mePortada: './imagens/meImage.jpg',
+  meAbout: './imagens/meaboutImage.jpg',
   medal: '../../public/icons/medalIcon.svg',
   movile: '../../public/icons/phoneIcon.svg',
   linkedin: '../../public/icons/linkedinIcon.svg',
